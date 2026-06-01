@@ -1,0 +1,2 @@
+Replace the previous content in write mode
+Test another test
