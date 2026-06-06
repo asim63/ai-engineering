@@ -26,7 +26,8 @@ My goal is not just to use AI tools, but to understand how modern AI systems wor
 | Day 01 | Python Fundamentals Revision | [Open](./Day-01-Python-Revision/) |
 | Day 02 | First LLM API Calls          | [Open](./Day-02-LLM-call/)        |
 | Day 03 | How LLMs Work                | [Open](./Day-03-LLM-work/)        |
-| Day 04 | Message Structure in LLM     | [Open](./Day-03-Message-Structure/)        |
+| Day 04 | Message Structure in LLM     | [Open](./Day-04-Message-Structure/)        |
+| Day 04 | Prompt Engineering     | [Open](./Day-05-Prompt-engineering/)        |
 
 ## Tech Stack
 
