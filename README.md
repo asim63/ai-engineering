@@ -29,6 +29,7 @@ My goal is not just to use AI tools, but to understand how modern AI systems wor
 | Day 04 | Message Structure in LLM     | [Open](./Day-04-Message-Structure/)        |
 | Day 05 | Prompt Engineering     | [Open](./Day-05-Prompt-engineering/)        |
 | Day 06 | Chain of Thoughts     | [Open](./Day-06-Chain-of-Thoughts/)        |
+| Day 07 | Advanced Prompting     | [Open](./Day-07-Advanced-Prompting/)        |
 
 ## Tech Stack
 
