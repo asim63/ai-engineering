@@ -1,0 +1,36 @@
+Without CoT: Here's how to calculate how much money Ram spent:
+
+*   **Snacks:** $10
+*   **Gift for Sahil:** $30
+*   **Travel:** $20
+
+**Total spent = $10 + $30 + $20 = $60**
+
+Ram spent **$60** the whole day.
+With CoT: Here's how to calculate how much money Ram spent:
+
+1.  **Identify the money spent:** Ram spent money on three things:
+    *   Snacks at the restaurant: $10
+    *   Gift for Sahil: $30
+    *   Travel around the city: $20
+
+2.  **Add up the expenses:** To find the total amount spent, add these amounts together.
+    $10 (snacks) + $30 (gift) + $20 (travel) = $60
+
+The $100 Ram had and the $5 he found are irrelevant to the question of how much he *spent*.
+
+**Answer:** Ram spent $60 the whole day.
+Without CoT: This is a classic riddle!
+
+The answer is **9**.
+
+The phrase "all but 9 die" means that only 9 sheep *didn't* die.
+
+
+With CoT: Here's how to solve this riddle:
+
+1.  **Identify the key phrase:** The riddle states, "All but 9 die."
+2.  **Understand "all but":** The phrase "all but" means everything *except* for the specified amount.
+3.  **Apply the meaning:** So, if "all but 9 die," it means that all the sheep died *except for* 9 of them.
+
+Therefore, **9** sheep remain.
