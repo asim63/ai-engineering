@@ -1,0 +1,120 @@
+Technique: basic 
+Prompt: Generate appropriate subject of email based on the body.
+    Dear Customer,
+We are excited to announce our Summer Learning Sale. For the next 7 days, all premium courses on our platform are available at 40% off. This includes courses on AI Engineering, Data Science, Web Development, and Cloud Computing.
+The discount will be automatically applied at checkout. Don't miss this opportunity to upgrade your skills at a reduced price.
+Offer ends on June 15.
+
+Best regards,
+Learning Hub Team
+
+Response: 
+Subject: ☀️ 40% Off All Premium Courses - Summer Learning Sale Ends June 15!
+
+candidate_token_count=22
+prompt_token_count : 115
+total_token_count = 137
+ response_time = 1.07s
+ 
+Technique: role 
+Prompt: You are a professional email writer.
+    Generate appropriate subject of email based on the body.
+    Dear Customer,
+We are excited to announce our Summer Learning Sale. For the next 7 days, all premium courses on our platform are available at 40% off. This includes courses on AI Engineering, Data Science, Web Development, and Cloud Computing.
+The discount will be automatically applied at checkout. Don't miss this opportunity to upgrade your skills at a reduced price.
+Offer ends on June 15.
+
+Best regards,
+Learning Hub Team
+
+Response: 
+Subject: ☀️ 7-Day Summer Learning Sale: 40% Off All Premium Courses!
+
+candidate_token_count=21
+prompt_token_count : 124
+total_token_count = 145
+response_time = 0.89s
+
+Technique: few-shot 
+Prompt: Generate appropriate subject of email based on the body.
+
+Email:
+We are excited to announce the launch of our new AI Engineering course starting next month. Enroll now to secure your seat.
+
+Subject:
+Introducing Our New AI Engineering Course
+
+Email:
+Your order #45872 has been shipped and is expected to arrive within 3 business days. Track your package using the link provided.
+
+Subject:
+Your Order Is On Its Way
+
+Email:
+Join us this Friday for a free webinar on Prompt Engineering. Learn practical techniques and ask questions during the live session.
+
+Subject:
+Register for Our Free Prompt Engineering Webinar
+
+Email:Dear Customer,
+We are excited to announce our Summer Learning Sale. For the next 7 days, all premium courses on our platform are available at 40% off. This includes courses on AI Engineering, Data Science, Web Development, and Cloud Computing.
+The discount will be automatically applied at checkout. Don't miss this opportunity to upgrade your skills at a reduced price.
+Offer ends on June 15.
+
+Best regards,
+Learning Hub Team
+
+Response: 
+Subject: ☀️ Summer Learning Sale: 40% Off All Premium Courses!
+
+candidate_token_count=17
+prompt_token_count : 237
+total_token_count = 254
+response_time = 0.90s
+
+Technique: xml 
+Prompt: 
+    <instruction>
+    Generate appropriate subject of email based on the body.
+    </instruction>
+    
+    <user_input>
+    Dear Customer,
+We are excited to announce our Summer Learning Sale. For the next 7 days, all premium courses on our platform are available at 40% off. This includes courses on AI Engineering, Data Science, Web Development, and Cloud Computing.
+The discount will be automatically applied at checkout. Don't miss this opportunity to upgrade your skills at a reduced price.
+Offer ends on June 15.
+
+Best regards,
+Learning Hub Team
+    </user_input>
+    
+
+Response:
+Subject: ☀️ 40% Off All Premium Courses - Summer Learning Sale!
+
+candidate_token_count=17
+prompt_token_count : 145
+total_token_count = 162
+ response_time = 0.92s
+ 
+Technique: json 
+Prompt: Generate appropriate subject of email based on the body strictly in json format. Do not use any other format except json.
+    Dear Customer,
+We are excited to announce our Summer Learning Sale. For the next 7 days, all premium courses on our platform are available at 40% off. This includes courses on AI Engineering, Data Science, Web Development, and Cloud Computing.
+The discount will be automatically applied at checkout. Don't miss this opportunity to upgrade your skills at a reduced price.
+Offer ends on June 15.
+
+Best regards,
+Learning Hub Team
+
+Response:
+```json
+{
+  "subject": "🔥 40% OFF Summer Learning Sale: AI, Data Science, Web Dev & More!"
+}
+```
+
+candidate_token_count=34
+prompt_token_count : 128
+total_token_count = 162
+response_time = 0.83s
