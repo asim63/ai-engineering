@@ -1,0 +1,58 @@
+ Prompt: Hi whats up?
+Input Tokens: 5
+Output Tokens: 21
+Total Tokens: 26
+    
+Prompt: I am Asim
+Input Tokens: 32
+Output Tokens: 28
+Total Tokens: 60
+
+Prompt: Nice to meet you
+Input Tokens: 66
+Output Tokens: 41
+Total Tokens: 107
+    
+Prompt: Goodbye
+Input Tokens: 110
+Output Tokens: 25
+Total Tokens: 135
+
+----- After Trimming -----
+
+Prompt: Hi whats up?
+Input Tokens: 5
+Output Tokens: 20
+Total Tokens: 25
+
+Prompt: I am Asim
+Input Tokens: 31
+Output Tokens: 31
+Total Tokens: 62
+
+Prompt: Nice to meet you
+Input Tokens: 68
+Output Tokens: 20
+Total Tokens: 88
+
+Prompt: Goodbye
+Input Tokens: 86
+Output Tokens: 29
+Total Tokens: 115
+    
+----- Summarize -----
+Prompt: Hi whats up?
+Input Tokens: 25
+Output Tokens: 8
+Total Tokens: 33
+
+Prompt: I am Asim
+Input Tokens: 67
+Output Tokens: 9
+Total Tokens: 76
+
+Prompt: Nice to meet you
+Input Tokens: 105
+Output Tokens: 9
+Total Tokens: 114
+    

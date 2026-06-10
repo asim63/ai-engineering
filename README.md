@@ -32,6 +32,7 @@ My goal is not just to use AI tools, but to understand how modern AI systems wor
 | Day 07 | Advanced Prompting     | [Open](./Day-07-Advanced-Prompting/)        |
 | Day 08 | Project 1     | [Open](./Day-08-Project1/)        |
 | Day 09 | Prompt Evaluation     | [Open](./Day-09-Prompt-Evaluation/)        |
+| Day 10 | Context Management     | [Open](./Day-10-Context-Management/)        |
 
 ## Tech Stack
 
