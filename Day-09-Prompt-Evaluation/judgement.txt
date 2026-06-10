@@ -1,0 +1,20 @@
+---Basic---
+Subject : ☀️ 40% Off All Premium Courses - Summer Learning Sale Ends June 15! 
+Score : 8/10 
+
+---Role---
+Subject : ☀️ 7-Day Summer Learning Sale: 40% Off All Premium Courses! 
+Score : 8/10 
+
+---Few-shot---
+Subject : ☀️ Summer Learning Sale: 40% Off All Premium Courses! 
+Score : 8/10 
+
+---XML---
+Subject : ☀️ 40% Off All Premium Courses - Summer Learning Sale! 
+Score : 8/10 
+
+---JSON---
+Subject : 🔥 40% OFF Summer Learning Sale: AI, Data Science, Web Dev & More! 
+Score : 7/10 
+

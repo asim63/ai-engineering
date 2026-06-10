@@ -30,6 +30,8 @@ My goal is not just to use AI tools, but to understand how modern AI systems wor
 | Day 05 | Prompt Engineering     | [Open](./Day-05-Prompt-engineering/)        |
 | Day 06 | Chain of Thoughts     | [Open](./Day-06-Chain-of-Thoughts/)        |
 | Day 07 | Advanced Prompting     | [Open](./Day-07-Advanced-Prompting/)        |
+| Day 08 | Project 1     | [Open](./Day-08-Project1/)        |
+| Day 09 | Prompt Evaluation     | [Open](./Day-09-Prompt-Evaluation/)        |
 
 ## Tech Stack
 

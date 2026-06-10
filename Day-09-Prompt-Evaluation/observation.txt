@@ -1,0 +1,72 @@
+Statement: The food was amazing but the service was terrible.
+Expected: Neutral
+Predicted: Neutral
+
+Statement: I expected much worse actually.
+Expected: Positive
+Predicted: Positive
+
+Statement: It wasn't bad.
+Expected: Positive
+Predicted: Positive
+
+Statement: I don't know how I feel about it.
+Expected: Neutral
+Predicted: Neutral
+
+Statement: Thanks for ruining my day.
+Expected: Negative
+Predicted: Negative
+
+Statement: The product works, but not as advertised.
+Expected: Neutral
+Predicted: Negative
+
+Statement: The food was amazing but the service was terrible.
+Expected: Neutral
+Predicted: Neutral
+
+Statement: I expected much worse actually.
+Expected: Positive
+Predicted: Positive
+
+Statement: It wasn't bad.
+Expected: Positive
+Predicted: Positive
+
+Statement: I don't know how I feel about it.
+Expected: Neutral
+Predicted: Neutral
+
+Statement: Thanks for ruining my day.
+Expected: Negative
+Predicted: Negative
+
+Statement: The product works, but not as advertised.
+Expected: Neutral
+Predicted: Negative
+
+Statement: The food was amazing but the service was terrible.
+Expected: Neutral
+Predicted: Neutral
+
+Statement: I expected much worse actually.
+Expected: Positive
+Predicted: Positive
+
+Statement: It wasn't bad.
+Expected: Positive
+Predicted: Neutral
+
+Statement: I don't know how I feel about it.
+Expected: Neutral
+Predicted: Neutral
+
+Statement: Thanks for ruining my day.
+Expected: Negative
+Predicted: Negative
+
+Statement: The product works, but not as advertised.
+Expected: Neutral
+Predicted: Negative
+
