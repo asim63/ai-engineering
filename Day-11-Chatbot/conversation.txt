@@ -1,0 +1,16 @@
+USER: The Amazon Rainforest is the largest tropical rainforest in the world and spans multiple countries in South America. It plays a crucial role in regulating Earth's climate by absorbing large amounts of carbon dioxide. The rainforest is home to millions of species of plants, insects, birds, and mammals, many of which are found nowhere else. Scientists consider the Amazon one of the most biodiverse regions on the planet. However, deforestation caused by logging, agriculture, and mining continues to threaten this important ecosystem.
+
+MODEL: Generated 2 quiz questions.
+
+MODEL: What is the largest tropical rainforest in the world?
+
+USER: amazon
+
+MODEL: Correct
+
+MODEL: What natural process does the Amazon Rainforest help regulate?
+
+USER: plant
+
+MODEL: Wrong. Answer: Climate
+
