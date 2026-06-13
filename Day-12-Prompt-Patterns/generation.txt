@@ -1,0 +1,6 @@
+#LSPPDay13
+* Explored prompt patterns: Classification, Extraction, Summarization, Generation.
+* Understood Chained, Router, and Retry logic.
+* Identified LLM use case limitations.
+@lftechnology #60DaysofLearning2026 #LearningWithLeapfrog
+
