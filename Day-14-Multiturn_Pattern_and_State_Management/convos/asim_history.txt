@@ -1,0 +1,66 @@
+[
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": "hi"
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "Hello. How may I help you?"
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": "My age is 20"
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "Understood. What does this mean for you?"
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": "What is my age?"
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "You stated your age is 20."
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": "python -u \"d:\\Projects\\ai-engineering\\Day-12-Prompt-Patterns\\generation.py\""
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "Understood. What is the context for this command?"
+            }
+        ]
+    }
+]
