@@ -153,6 +153,7 @@ print("/exit")
 while True:
     user_input = input("\nYou: ")
     if user_input == "/exit":
+        bot.save_history()
         print("Goodbye.")
         break
     elif user_input == "/clear":

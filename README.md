@@ -35,6 +35,9 @@ My goal is not just to use AI tools, but to understand how modern AI systems wor
 | Day 10 | Context Management     | [Open](./Day-10-Context-Management/)        |
 | Day 11 | Chatbot    | [Open](./Day-11-Chatbot/)        |
 | Day 12 | Prompt Patterns     | [Open](./Day-12-Prompt-Patterns/)        |
+| Day 13 | APIs JSON     | [Open](./Day-13-APIs-JSON/)        |
+| Day 14 | Multiturn Pattern and State Management     | [Open](./Day-14-Multiturn-Pattern_and_State_Management/)        |
+| Day 15 | Project 2     | [Open](./Day-15-Project2/)        |
 
 ## Tech Stack
 
