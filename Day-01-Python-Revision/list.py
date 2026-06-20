@@ -36,3 +36,11 @@ list1 = [1,2,3]
 list2 = ['a','b','c']
 list3 = list1 + list2
 print(list3)
+
+list = [1,2,3,4,5,6,7,8,9]
+new_list = list[2:5] # prints 3 4 5
+new_list = list[5:] #prints 6 7 8 9
+new_list = list[:5] #prints 1 2 3 4 5
+new_list = list[:-5] # prints 1 2 3 4
+new_list = list[-5:] #prints 5 6 7 8 9
+print(new_list)
