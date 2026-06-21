@@ -38,6 +38,11 @@ My goal is not just to use AI tools, but to understand how modern AI systems wor
 | Day 13 | APIs JSON     | [Open](./Day-13-APIs-JSON/)        |
 | Day 14 | Multiturn Pattern and State Management     | [Open](./Day-14-Multiturn-Pattern_and_State_Management/)        |
 | Day 15 | Project 2     | [Open](./Day-15-Project2/)        |
+| Day 16 | Python for AI     | [Open](./Day-16-Python-for-AI/)        |
+| Day 17 | SDKs and Ollama     | [Open](./Day-17-SDKs-Ollama/)        |
+| Day 18 | RAG     | [Open](./Day-18-RAG/)        |
+| Day 19 | Embeddings     | [Open](./Day-19-Embeddings/)        |
+| Day 20 | Chroma DB     | [Open](./Day-20-ChromaDB/)        |
 
 ## Tech Stack
 
