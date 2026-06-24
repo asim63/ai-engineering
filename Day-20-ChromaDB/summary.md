@@ -1,4 +1,4 @@
-# Day-19 ChromaDB
+# Day-20 ChromaDB
 
 ## ChromaDB Basics
 
@@ -149,6 +149,3 @@ Answer
 
 The vector database acts as external knowledge storage while the LLM remains unchanged.
 
-## Next Step
-
-Build a DocumentStore wrapper class and connect ChromaDB retrieval to Qwen3 to create a complete local RAG pipeline.

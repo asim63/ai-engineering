@@ -1,4 +1,4 @@
-# Day-20: Document Loading and Chunking for RAG
+# Day-21: Document Loading and Chunking for RAG
 
 ## What I Learned
 
@@ -144,19 +144,3 @@ Retrieve
 LLM
 
 ---
-
-### Key Insight
-
-Chunking strategy significantly affects retrieval quality.
-
-Semantic > Recursive > Fixed
-
-for most real-world RAG applications.
-
-## Next Steps
-
-* Load PDFs using LangChain loaders
-* Build reusable document pipelines
-* Embed chunks
-* Store chunks in ChromaDB
-* Build complete local RAG systems

@@ -14,7 +14,7 @@ embeddings = HuggingFaceEmbeddings(
 db = Chroma.from_texts(
     texts=chunks,
     embedding=embeddings,
-    persist_directory="./demo_db"
+    persist_directory=r"D:\AI_Data\lang_chain_chroma"
 )
 
 results = db.similarity_search(
