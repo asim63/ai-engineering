@@ -11,16 +11,21 @@ embeddings = HuggingFaceEmbeddings(
     model_name="all-MiniLM-L6-v2"
 )
 
-db = Chroma.from_texts(
-    texts=chunks,
-    embedding=embeddings,
-    persist_directory=r"D:\AI_Data\lang_chain_chroma"
-)
+# db = Chroma.from_texts(
+#     texts=chunks,
+#     embedding=embeddings,
+#     persist_directory=r"D:\AI_Data\lang_chain_chroma"
+# )
+db = Chroma(
+        persist_directory=r"D:\AI_Data\lang_chain_chroma",
+        embedding_function=embeddings,
+    )
 
-results = db.similarity_search(
+results = db.similarity_search_with_score(
     "How do embeddings work?",
-    k=2
+    k=3
 )
-
-for doc in results:
+print(results)
+for doc,score in results:
+    print(score)
     print(doc.page_content)
