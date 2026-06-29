@@ -3,6 +3,8 @@ from typing import Optional
 
 @dataclass
 class RAGConfig:
+    persist_directory: str = "chroma_db"
+    collection_name: str = "rag-collection"
     #Chunking
     parent_chunk_size: int = 800
     parent_chunk_overlap: int = 100
