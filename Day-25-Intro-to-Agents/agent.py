@@ -15,7 +15,7 @@ calculator_tool = {
                 "description": "The math expression to evaluate. Examples: '23 + 47', '100/4','sqrt(49),'15/100 * 32'"
             }
         },
-        "required": ["expression"]
+            "required": ["expression"]
       }
     }
 }

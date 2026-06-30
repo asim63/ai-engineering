@@ -1,0 +1,3 @@
+- **Self-Attention Mechanism:** Enables capture of relationships between sequence elements through parallel processing.
+- **Encoder-Decoder Architecture:** Facilitates tasks like machine translation with structured parallel computation.
+- **Versatile Applications:** Powers NLP, speech recognition, image processing, and beyond with positional encoding and multi-head attention.

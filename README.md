@@ -43,6 +43,12 @@ My goal is not just to use AI tools, but to understand how modern AI systems wor
 | Day 18 | RAG     | [Open](./Day-18-RAG/)        |
 | Day 19 | Embeddings     | [Open](./Day-19-Embeddings/)        |
 | Day 20 | Chroma DB     | [Open](./Day-20-ChromaDB/)        |
+| Day 21 | LangChain     | [Open](./Day-21-LangChain/)        |
+| Day 22 | Project 3     | [Open](./Day-22-Project3/)        |
+| Day 23 | Improving RAG    | [Open](./Day-23-Improving-RAG/)        |
+| Day 24 | Advance RAG Patterns     | [Open](./Day-24-Advance-RAG-Patterns/)        |
+| Day 25 | Intro to Agents     | [Open](./Day-25-Intro-to-Agents/)        |
+| Day 26 | Building Agent     | [Open](./Day-26-Building-Agent/)        |
 
 ## Tech Stack
 
