@@ -88,7 +88,7 @@ def web_search(query: str)-> str:
     try:
         results = tavilyClient.search(query = query, max_results=3)
         output = ""
-        for r in results:
+        for r in results["results"]:
             output += f"Title: {r['title']}\n"
             output += f"URL: {r['url']}\n"
             output += f"Content: {r['content']}\n"
