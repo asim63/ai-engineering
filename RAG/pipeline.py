@@ -297,15 +297,17 @@ Extract:"""
         # Compression (optional)
         if self.config.use_compression:
             compressed = self._compress(true_query, final)
-            context = "\n\n".join(e for _, _, e in compressed)
+            # context = "\n\n".join(e for _, _, e in compressed)
+            context_chunks = [e for _, _, e in compressed]
         else:
-            context = "\n\n".join(doc.page_content for doc, _ in final)
-
+            # context = "\n\n".join(doc.page_content for doc, _ in final)
+            context_chunks = [doc.page_content for doc, _ in final]
+        context = "\n\n".join(context_chunks)
         if verbose:
             print("\n" + "="*20 + " Retrieved Context " + "="*20)
             for i, (doc, score) in enumerate(final, 1):
                 print(f"[{i}] Page: {doc.metadata.get('page', '?')} | Score: {score:.4f}")
-                print(f"     {doc.page_content[:100]}...")
+                print(f"     {doc.page_content}...")
             print("="*59)
 
         # Generate answer
@@ -320,12 +322,16 @@ Extract:"""
             messages=[{"role": "user", "content": prompt}],
             stream=True
         )
-        print("\nAI Answer: ", end="", flush=True)
+        if verbose:
+            print("\nAI Answer: ", end="", flush=True)
         answer = ""
         for chunk in stream:
             token = chunk["message"]["content"]
             print(token, end="", flush=True)
             answer += token
-        print()
+            
+        if verbose:
+            print()
 
-        return answer
+        # return answer
+        return answer,context_chunks
