@@ -1,0 +1,801 @@
+order_id,customer_id,order_date,product,category,quantity,price,discount_pct,shipping_cost,customer_country,payment_method,total_amount
+1001,CUST-0238,2024-10-05,Water Bottle,Accessories,3,248.24,10,10.95,USA,Credit Card,670.25
+1002,CUST-0275,2024-11-12,Water Bottle,Accessories,3,244.88,20,10.96,Germany,Bank Transfer,587.71
+1003,CUST-0177,2024-05-13,Water Bottle,Accessories,1,210.66,0,13.35,Nepal,Debit Card,210.66
+1004,CUST-0150,2024-09-25,Duffel Bag,Bags,5,160.37,5,10.13,Germany,Credit Card,761.76
+1005,CUST-0282,2024-06-23,Fitness Tracker,Electronics,4,186.59,15,14.87,USA,PayPal,634.41
+1006,CUST-0352,2024-07-27,Resistance Bands,Fitness Gear,3,172.27,0,8.91,Nepal,Debit Card,516.81
+1007,CUST-0301,2024-03-19,Running Shoes,Footwear,5,125.86,20,1.04,Nepal,Bank Transfer,503.44
+1008,CUST-0347,2024-04-22,Water Bottle,Accessories,2,126.16,5,8.51,Nepal,Credit Card,239.7
+1009,CUST-0092,2024-10-09,Yoga Mat,Fitness Gear,5,129.72,20,7.71,USA,PayPal,518.88
+1010,CUST-0038,2024-10-25,Yoga Mat,Fitness Gear,1,131.62,0,,Canada,PayPal,131.62
+1011,CUST-0152,2024-02-22,Yoga Mat,Fitness Gear,3,55.99,0,,USA,Bank Transfer,167.97
+1012,CUST-0153,2024-09-11,Wireless Earbuds,Electronics,5,74.6,0,,Germany,PayPal,373.0
+1013,CUST-0211,2024-01-10,Water Bottle,Accessories,2,224.3,0,4.44,USA,Credit Card,448.6
+1014,CUST-0034,2024-03-01,Yoga Mat,Fitness Gear,3,53.69,5,8.91,Australia,PayPal,153.02
+1015,CUST-0010,2024-02-11,Fitness Tracker,Electronics,1,34.17,20,3.21,Germany,Bank Transfer,27.34
+1016,CUST-0191,2024-01-22,Backpack,Bags,5,205.79,20,4.63,UK,Bank Transfer,823.16
+1017,CUST-0276,2024-05-18,Running Shoes,Footwear,3,145.99,10,13.29,Australia,Credit Card,394.17
+1018,CUST-0105,2024-08-05,Backpack,Bags,2,187.94,10,0.74,India,Bank Transfer,338.29
+1019,CUST-0397,2024-11-07,Running Shoes,Footwear,5,15.22,10,6.24,Australia,PayPal,68.49
+1020,CUST-0279,2024-01-24,Backpack,Bags,1,193.6,0,12.06,Australia,Debit Card,193.6
+1021,CUST-0089,2024-01-31,Wireless Earbuds,Electronics,2,198.74,20,4.93,Nepal,Credit Card,317.98
+1022,CUST-0106,2024-01-31,Wireless Earbuds,Electronics,2,241.82,0,5.5,Canada,PayPal,483.64
+1023,CUST-0382,2024-10-22,Water Bottle,Accessories,4,190.13,0,11.75,USA,Bank Transfer,760.52
+1024,CUST-0270,2024-09-20,Resistance Bands,Fitness Gear,1,91.08,0,14.34,Nepal,PayPal,91.08
+1025,CUST-0232,2024-07-31,Water Bottle,Accessories,1,29.67,20,1.24,Germany,Debit Card,23.74
+1026,CUST-0155,2024-02-12,Yoga Mat,Fitness Gear,1,86.08,10,4.11,India,Bank Transfer,77.47
+1027,CUST-0284,2024-10-20,Yoga Mat,Fitness Gear,5,92.12,20,12.92,India,Debit Card,368.48
+1028,CUST-0315,2024-11-03,Yoga Mat,Fitness Gear,5,175.42,20,14.19,India,Debit Card,701.68
+1029,CUST-0200,2024-01-08,Resistance Bands,Fitness Gear,1,246.84,10,3.78,Canada,Debit Card,222.16
+1030,CUST-0230,2024-03-14,Fitness Tracker,Electronics,5,27.6,0,,Nepal,Credit Card,138.0
+1031,CUST-0165,2024-08-21,Water Bottle,Accessories,3,174.01,0,9.06,Canada,Bank Transfer,522.03
+1032,CUST-0270,2024-12-12,Wireless Earbuds,Electronics,3,181.71,15,10.46,Nepal,Debit Card,463.36
+1033,CUST-0050,2024-09-05,Running Shoes,Footwear,4,185.46,20,4.89,Nepal,PayPal,593.47
+1034,CUST-0190,2024-07-05,Water Bottle,Accessories,2,163.37,20,4.47,Australia,Bank Transfer,261.39
+1035,CUST-0079,2024-12-30,Duffel Bag,Bags,4,142.9,0,5.16,UK,PayPal,571.6
+1036,CUST-0014,2024-07-12,Fitness Tracker,Electronics,5,22.82,10,3.75,USA,Credit Card,102.69
+1037,CUST-0085,2024-07-03,Fitness Tracker,Electronics,1,154.91,10,12.26,Australia,Bank Transfer,139.42
+1038,CUST-0336,2024-11-06,Yoga Mat,Fitness Gear,2,173.28,0,11.28,Australia,Debit Card,346.56
+1039,CUST-0148,2024-10-28,Yoga Mat,Fitness Gear,1,249.0,10,,Canada,Credit Card,224.1
+1040,CUST-0265,2024-09-05,Wireless Earbuds,Electronics,1,113.39,0,7.69,India,PayPal,113.39
+1041,CUST-0383,2024-10-23,Yoga Mat,Fitness Gear,5,43.29,15,1.79,Germany,Credit Card,183.98
+1042,CUST-0228,2024-02-17,Yoga Mat,Fitness Gear,3,103.08,0,1.62,UK,Debit Card,309.24
+1043,CUST-0113,2024-04-24,Yoga Mat,Fitness Gear,2,79.51,0,10.13,UK,Credit Card,159.02
+1044,CUST-0354,2024-04-27,Resistance Bands,Fitness Gear,2,218.52,0,14.83,UK,PayPal,437.04
+1045,CUST-0370,2024-12-09,Resistance Bands,Fitness Gear,2,141.52,15,,Australia,PayPal,240.58
+1046,CUST-0184,2024-11-07,Fitness Tracker,Electronics,1,16.64,5,5.06,Canada,PayPal,15.81
+1047,CUST-0384,2024-07-11,Duffel Bag,Bags,1,238.58,0,,Canada,PayPal,238.58
+1048,CUST-0022,2024-09-24,Resistance Bands,Fitness Gear,1,83.47,0,12.12,Canada,Credit Card,83.47
+1049,CUST-0247,2024-03-30,Yoga Mat,Fitness Gear,2,212.4,15,4.72,Nepal,Credit Card,361.08
+1050,CUST-0291,2024-12-03,Resistance Bands,Fitness Gear,3,164.2,0,0.64,Australia,Credit Card,492.6
+1051,CUST-0277,2024-09-22,Fitness Tracker,Electronics,5,55.39,0,2.53,Australia,PayPal,276.95
+1052,CUST-0192,2024-01-25,Duffel Bag,Bags,2,135.27,0,12.29,Nepal,Debit Card,270.54
+1053,CUST-0302,2024-11-01,Backpack,Bags,5,81.78,20,11.32,Nepal,Bank Transfer,327.12
+1054,CUST-0140,2024-02-16,Water Bottle,Accessories,2,54.38,10,11.09,Germany,Credit Card,97.88
+1055,CUST-0390,2024-12-02,Fitness Tracker,Electronics,5,109.35,0,0.6,UK,Credit Card,546.75
+1056,CUST-0036,2024-10-23,Resistance Bands,Fitness Gear,4,242.86,0,5.88,USA,Credit Card,971.44
+1057,CUST-0087,2024-07-24,Wireless Earbuds,Electronics,2,194.43,0,7.17,Australia,PayPal,388.86
+1058,CUST-0151,2024-04-23,Water Bottle,Accessories,3,60.12,0,12.39,Nepal,PayPal,180.36
+1059,CUST-0224,2024-02-20,Water Bottle,Accessories,1,93.68,15,9.29,UK,PayPal,79.63
+1060,CUST-0097,2024-11-03,Fitness Tracker,Electronics,4,144.71,5,3.56,UK,Debit Card,549.9
+1061,CUST-0015,2024-09-14,Duffel Bag,Bags,4,156.22,0,10.69,India,Debit Card,624.88
+1062,CUST-0199,2024-09-17,Yoga Mat,Fitness Gear,2,57.34,5,2.99,Germany,PayPal,108.95
+1063,CUST-0117,2024-04-02,Duffel Bag,Bags,2,89.28,0,1.21,India,Bank Transfer,178.56
+1064,CUST-0352,2024-05-13,Running Shoes,Footwear,1,69.43,0,1.85,USA,Bank Transfer,69.43
+1065,CUST-0203,2024-05-05,Running Shoes,Footwear,1,53.0,15,6.66,Australia,Bank Transfer,45.05
+1066,CUST-0212,2024-01-21,Yoga Mat,Fitness Gear,5,221.0,0,4.92,USA,PayPal,1105.0
+1067,CUST-0376,2024-10-25,Running Shoes,Footwear,5,94.62,0,13.21,USA,Credit Card,473.1
+1068,CUST-0346,2024-07-11,Resistance Bands,Fitness Gear,3,124.28,10,6.36,UK,PayPal,335.56
+1069,CUST-0273,2024-02-02,Backpack,Bags,1,119.54,10,6.46,Nepal,Debit Card,107.59
+1070,CUST-0308,2024-06-06,Water Bottle,Accessories,1,214.39,0,9.02,India,PayPal,214.39
+1071,CUST-0025,2024-10-06,Backpack,Bags,5,190.03,0,10.11,UK,Bank Transfer,950.15
+1072,CUST-0090,2024-04-23,Wireless Earbuds,Electronics,4,160.51,5,7.27,USA,Credit Card,609.94
+1073,CUST-0002,2024-04-14,Backpack,Bags,3,242.31,10,7.13,Germany,PayPal,654.24
+1074,CUST-0304,2024-10-21,Backpack,Bags,1,181.21,15,,UK,PayPal,154.03
+1075,CUST-0380,2024-09-25,Running Shoes,Footwear,5,170.88,15,12.85,India,Debit Card,726.24
+1076,CUST-0272,2024-12-10,Resistance Bands,Fitness Gear,4,179.7,5,14.05,India,PayPal,682.86
+1077,CUST-0123,2024-06-27,Wireless Earbuds,Electronics,4,43.05,5,4.89,Nepal,Bank Transfer,163.59
+1078,CUST-0304,2024-09-27,Duffel Bag,Bags,3,94.9,0,10.21,Nepal,Bank Transfer,284.7
+1079,CUST-0009,2024-05-20,Water Bottle,Accessories,2,188.87,10,2.95,USA,PayPal,339.97
+1080,CUST-0106,2024-11-29,Wireless Earbuds,Electronics,5,211.58,15,6.53,India,Debit Card,899.22
+1081,CUST-0034,2024-05-17,Fitness Tracker,Electronics,2,233.59,5,,UK,Credit Card,443.82
+1082,CUST-0268,2024-06-09,Running Shoes,Footwear,3,86.15,0,,UK,Credit Card,258.45
+1083,CUST-0338,2024-05-13,Yoga Mat,Fitness Gear,2,182.27,0,13.84,USA,PayPal,364.54
+1084,CUST-0329,2024-10-10,Yoga Mat,Fitness Gear,5,171.67,20,4.19,Germany,Credit Card,686.68
+1085,CUST-0362,2024-10-02,Backpack,Bags,2,206.09,5,9.87,India,PayPal,391.57
+1086,CUST-0135,2024-10-18,Wireless Earbuds,Electronics,5,47.16,15,10.87,India,PayPal,200.43
+1087,CUST-0390,2024-12-23,Wireless Earbuds,Electronics,4,89.26,0,11.11,Canada,PayPal,357.04
+1088,CUST-0382,2024-09-15,Duffel Bag,Bags,5,136.73,10,7.13,UK,Bank Transfer,615.28
+1089,CUST-0298,2024-09-04,Backpack,Bags,1,122.35,5,7.57,Germany,PayPal,116.23
+1090,CUST-0226,2024-04-28,Duffel Bag,Bags,2,150.55,0,6.37,Nepal,Credit Card,301.1
+1091,CUST-0229,2024-10-21,Resistance Bands,Fitness Gear,1,213.34,0,,Canada,Debit Card,213.34
+1092,CUST-0088,2024-11-26,Yoga Mat,Fitness Gear,5,149.16,15,13.27,Australia,PayPal,633.93
+1093,CUST-0218,2024-05-15,Resistance Bands,Fitness Gear,4,248.42,0,9.01,USA,Bank Transfer,993.68
+1094,CUST-0208,2024-05-20,Yoga Mat,Fitness Gear,3,176.02,15,13.87,Australia,Credit Card,448.85
+1095,CUST-0182,2024-08-18,Duffel Bag,Bags,2,229.51,10,5.15,UK,Bank Transfer,413.12
+1096,CUST-0156,2024-02-17,Water Bottle,Accessories,2,135.96,5,12.91,Germany,PayPal,258.32
+1097,CUST-0204,2024-05-11,Resistance Bands,Fitness Gear,5,107.61,0,8.73,Germany,Credit Card,538.05
+1098,CUST-0169,2024-04-30,Duffel Bag,Bags,5,141.28,0,4.65,UK,Bank Transfer,706.4
+1099,CUST-0240,2024-08-07,Resistance Bands,Fitness Gear,4,173.95,20,5.59,Germany,Debit Card,556.64
+1100,CUST-0237,2024-09-05,Backpack,Bags,2,236.89,20,14.77,Australia,Debit Card,379.02
+1101,CUST-0362,2024-10-17,Water Bottle,Accessories,5,246.66,20,,Germany,PayPal,986.64
+1102,CUST-0244,2024-06-11,Wireless Earbuds,Electronics,1,35.38,5,12.44,Australia,PayPal,33.61
+1103,CUST-0368,2024-02-27,Fitness Tracker,Electronics,2,191.58,0,1.49,India,Bank Transfer,383.16
+1104,CUST-0101,2024-02-20,Wireless Earbuds,Electronics,1,65.56,0,3.07,USA,Debit Card,65.56
+1105,CUST-0010,2024-07-02,Fitness Tracker,Electronics,5,108.79,15,14.74,UK,Bank Transfer,462.36
+1106,CUST-0101,2024-06-02,Duffel Bag,Bags,4,244.51,5,13.04,UK,Debit Card,929.14
+1107,CUST-0260,2024-03-24,Water Bottle,Accessories,1,91.66,0,2.0,UK,Debit Card,91.66
+1108,CUST-0001,2024-04-26,Backpack,Bags,2,232.21,5,5.32,Canada,Debit Card,441.2
+1109,CUST-0090,2024-12-03,Duffel Bag,Bags,3,150.65,15,9.97,India,Bank Transfer,384.16
+1110,CUST-0386,2024-04-04,Running Shoes,Footwear,3,111.52,20,1.97,India,Debit Card,267.65
+1111,CUST-0380,2024-07-18,Resistance Bands,Fitness Gear,3,135.91,20,8.04,Australia,Debit Card,326.18
+1112,CUST-0195,2024-05-25,Water Bottle,Accessories,4,235.64,15,1.25,USA,PayPal,801.18
+1113,CUST-0312,2024-08-20,Resistance Bands,Fitness Gear,4,31.16,20,13.11,UK,Debit Card,99.71
+1114,CUST-0016,2024-10-10,Fitness Tracker,Electronics,5,29.62,20,4.36,UK,Credit Card,118.48
+1115,CUST-0062,2024-09-21,Wireless Earbuds,Electronics,3,86.65,0,10.73,Canada,Credit Card,259.95
+1116,CUST-0034,2024-11-15,Backpack,Bags,1,54.05,5,0.11,UK,Credit Card,51.35
+1117,CUST-0128,2024-02-27,Wireless Earbuds,Electronics,5,120.81,0,,USA,Bank Transfer,604.05
+1118,CUST-0069,2024-02-18,Running Shoes,Footwear,5,194.98,0,,India,Debit Card,974.9
+1119,CUST-0306,2024-05-28,Backpack,Bags,5,234.92,0,,India,Bank Transfer,1174.6
+1120,CUST-0108,2024-08-17,Running Shoes,Footwear,5,201.12,5,13.31,USA,Debit Card,955.32
+1121,CUST-0312,2024-06-22,Yoga Mat,Fitness Gear,3,159.54,20,0.76,India,PayPal,382.9
+1122,CUST-0019,2024-08-26,Running Shoes,Footwear,4,76.74,10,14.98,Canada,PayPal,276.26
+1123,CUST-0055,2024-06-29,Wireless Earbuds,Electronics,3,34.4,0,,Germany,Credit Card,103.2
+1124,CUST-0373,2024-08-16,Yoga Mat,Fitness Gear,5,125.97,20,13.64,USA,Credit Card,503.88
+1125,CUST-0042,2024-05-31,Yoga Mat,Fitness Gear,3,237.87,20,11.82,Canada,Debit Card,570.89
+1126,CUST-0373,2024-08-20,Yoga Mat,Fitness Gear,4,190.94,10,3.55,Nepal,Bank Transfer,687.38
+1127,CUST-0204,2024-11-22,Duffel Bag,Bags,5,28.09,0,0.89,Germany,Debit Card,140.45
+1128,CUST-0268,2024-01-31,Duffel Bag,Bags,5,136.06,0,12.78,Canada,Debit Card,680.3
+1129,CUST-0188,2024-02-08,Resistance Bands,Fitness Gear,1,225.5,5,8.65,Canada,Credit Card,214.22
+1130,CUST-0010,2024-10-09,Backpack,Bags,4,71.0,0,0.14,India,Debit Card,284.0
+1131,CUST-0018,2024-08-31,Backpack,Bags,2,213.53,0,13.09,UK,Bank Transfer,427.06
+1132,CUST-0393,2024-10-04,Duffel Bag,Bags,2,102.43,0,3.66,Nepal,Debit Card,204.86
+1133,CUST-0204,2024-09-19,Water Bottle,Accessories,2,73.19,5,2.6,Nepal,Debit Card,139.06
+1134,CUST-0088,2024-06-22,Duffel Bag,Bags,4,69.13,20,11.21,Nepal,Bank Transfer,221.22
+1135,CUST-0396,2024-09-28,Yoga Mat,Fitness Gear,5,182.12,0,11.69,Nepal,PayPal,910.6
+1136,CUST-0297,2024-01-14,Backpack,Bags,2,199.79,20,9.11,Nepal,Debit Card,319.66
+1137,CUST-0382,2024-05-15,Resistance Bands,Fitness Gear,2,30.06,15,10.31,India,PayPal,51.1
+1138,CUST-0342,2024-04-04,Wireless Earbuds,Electronics,2,87.77,0,1.09,Germany,Credit Card,175.54
+1139,CUST-0231,2024-05-13,Duffel Bag,Bags,1,160.76,0,4.07,Canada,Credit Card,160.76
+1140,CUST-0004,2024-05-28,Duffel Bag,Bags,2,16.74,10,6.28,Germany,Credit Card,30.13
+1141,CUST-0302,2024-05-21,Wireless Earbuds,Electronics,3,77.7,5,5.4,USA,Bank Transfer,221.45
+1142,CUST-0249,2024-04-27,Duffel Bag,Bags,1,29.31,0,3.39,Germany,Debit Card,29.31
+1143,CUST-0323,2024-04-13,Water Bottle,Accessories,2,119.38,0,6.69,Australia,Bank Transfer,238.76
+1144,CUST-0268,2024-12-27,Resistance Bands,Fitness Gear,5,67.91,10,6.87,USA,Bank Transfer,305.59
+1145,CUST-0382,2024-12-29,Fitness Tracker,Electronics,5,15.49,10,8.54,UK,Bank Transfer,69.7
+1146,CUST-0066,2024-07-24,Yoga Mat,Fitness Gear,3,27.02,0,1.87,Germany,Credit Card,81.06
+1147,CUST-0145,2024-03-06,Yoga Mat,Fitness Gear,2,119.85,5,2.45,Nepal,Debit Card,227.71
+1148,CUST-0335,2024-11-19,Fitness Tracker,Electronics,2,226.44,5,12.51,Australia,Credit Card,430.24
+1149,CUST-0166,2024-04-28,Backpack,Bags,1,122.72,20,,Australia,PayPal,98.18
+1150,CUST-0300,2024-04-23,Water Bottle,Accessories,2,77.3,0,2.45,India,PayPal,154.6
+1151,CUST-0169,2024-03-21,Water Bottle,Accessories,2,221.12,15,13.66,Germany,Credit Card,375.9
+1152,CUST-0314,2024-06-12,Resistance Bands,Fitness Gear,5,189.44,10,3.3,Nepal,PayPal,852.48
+1153,CUST-0226,2024-07-09,Resistance Bands,Fitness Gear,5,46.38,10,6.81,Nepal,Debit Card,208.71
+1154,CUST-0039,2024-04-02,Running Shoes,Footwear,5,216.68,0,3.95,Australia,Bank Transfer,1083.4
+1155,CUST-0223,2024-11-17,Water Bottle,Accessories,1,249.58,0,0.32,Germany,Debit Card,249.58
+1156,CUST-0291,2024-04-20,Resistance Bands,Fitness Gear,2,221.64,20,14.74,USA,Debit Card,354.62
+1157,CUST-0126,2024-06-28,Fitness Tracker,Electronics,4,24.39,0,6.89,Australia,Credit Card,97.56
+1158,CUST-0076,2024-05-12,Yoga Mat,Fitness Gear,2,125.22,10,13.97,Nepal,PayPal,225.4
+1159,CUST-0346,2024-08-30,Duffel Bag,Bags,1,245.55,10,4.02,Australia,PayPal,221.0
+1160,CUST-0047,2024-12-18,Resistance Bands,Fitness Gear,3,39.09,10,6.74,Nepal,Debit Card,105.54
+1161,CUST-0358,2024-12-07,Wireless Earbuds,Electronics,2,172.63,15,13.16,USA,Credit Card,293.47
+1162,CUST-0341,2024-03-23,Resistance Bands,Fitness Gear,5,74.75,15,0.73,UK,PayPal,317.69
+1163,CUST-0394,2024-08-29,Resistance Bands,Fitness Gear,2,95.46,0,2.8,Germany,Credit Card,190.92
+1164,CUST-0093,2024-06-07,Fitness Tracker,Electronics,5,28.4,20,,Germany,Bank Transfer,113.6
+1165,CUST-0091,2024-05-18,Fitness Tracker,Electronics,5,91.78,0,0.4,Canada,Credit Card,458.9
+1166,CUST-0135,2024-10-06,Water Bottle,Accessories,4,151.48,20,4.26,UK,PayPal,484.74
+1167,CUST-0153,2024-10-18,Yoga Mat,Fitness Gear,1,193.42,0,12.19,Australia,PayPal,193.42
+1168,CUST-0002,2024-06-01,Fitness Tracker,Electronics,5,198.64,0,,Australia,Bank Transfer,993.2
+1169,CUST-0385,2024-10-14,Resistance Bands,Fitness Gear,4,165.51,0,,Australia,PayPal,662.04
+1170,CUST-0301,2024-08-10,Running Shoes,Footwear,3,182.37,0,3.18,Nepal,PayPal,547.11
+1171,CUST-0243,2024-03-24,Water Bottle,Accessories,4,67.24,0,2.35,USA,PayPal,268.96
+1172,CUST-0299,2024-03-07,Water Bottle,Accessories,1,192.38,0,2.48,Canada,PayPal,192.38
+1173,CUST-0007,2024-06-06,Yoga Mat,Fitness Gear,1,98.32,20,2.95,Nepal,PayPal,78.66
+1174,CUST-0028,2024-03-16,Running Shoes,Footwear,4,143.23,10,7.04,Canada,Bank Transfer,515.63
+1175,CUST-0083,2024-03-18,Fitness Tracker,Electronics,4,48.81,0,2.12,India,Bank Transfer,195.24
+1176,CUST-0068,2024-08-29,Water Bottle,Accessories,5,61.34,10,12.32,UK,Bank Transfer,276.03
+1177,CUST-0300,2024-04-11,Running Shoes,Footwear,2,141.26,10,3.99,India,PayPal,254.27
+1178,CUST-0073,2024-08-11,Wireless Earbuds,Electronics,1,224.38,20,5.13,UK,Bank Transfer,179.5
+1179,CUST-0002,2024-09-10,Duffel Bag,Bags,3,176.13,0,11.71,Australia,PayPal,528.39
+1180,CUST-0247,2024-12-18,Duffel Bag,Bags,4,163.2,20,,Australia,Credit Card,522.24
+1181,CUST-0137,2024-12-22,Yoga Mat,Fitness Gear,2,120.58,0,7.11,UK,Credit Card,241.16
+1182,CUST-0143,2024-04-14,Fitness Tracker,Electronics,1,15.87,0,11.87,Nepal,Credit Card,15.87
+1183,CUST-0231,2024-11-01,Backpack,Bags,2,122.57,0,9.78,Canada,PayPal,245.14
+1184,CUST-0112,2024-10-06,Fitness Tracker,Electronics,2,40.25,10,3.17,Germany,Debit Card,72.45
+1185,CUST-0300,2024-07-11,Fitness Tracker,Electronics,1,241.88,10,9.45,Australia,Debit Card,217.69
+1186,CUST-0030,2024-07-13,Wireless Earbuds,Electronics,1,29.51,0,11.73,UK,Credit Card,29.51
+1187,CUST-0025,2024-07-13,Wireless Earbuds,Electronics,1,95.42,15,13.59,Canada,Debit Card,81.11
+1188,CUST-0172,2024-02-03,Resistance Bands,Fitness Gear,1,19.35,15,8.71,UK,Bank Transfer,16.45
+1189,CUST-0300,2024-02-17,Yoga Mat,Fitness Gear,5,213.09,0,14.76,Nepal,Credit Card,1065.45
+1190,CUST-0055,2024-02-06,Yoga Mat,Fitness Gear,5,132.51,20,0.52,USA,PayPal,530.04
+1191,CUST-0305,2024-10-12,Duffel Bag,Bags,5,96.02,5,6.16,UK,Debit Card,456.1
+1192,CUST-0104,2024-03-30,Resistance Bands,Fitness Gear,2,113.08,10,,Germany,PayPal,203.54
+1193,CUST-0381,2024-06-30,Wireless Earbuds,Electronics,3,120.67,0,7.59,USA,Debit Card,362.01
+1194,CUST-0331,2024-07-21,Running Shoes,Footwear,3,215.12,0,2.16,Nepal,Debit Card,645.36
+1195,CUST-0170,2024-12-04,Duffel Bag,Bags,2,117.29,0,11.2,USA,Debit Card,234.58
+1196,CUST-0012,2024-06-12,Wireless Earbuds,Electronics,3,78.26,20,6.6,Australia,Credit Card,187.82
+1197,CUST-0279,2024-08-27,Running Shoes,Footwear,2,155.44,20,,UK,PayPal,248.7
+1198,CUST-0154,2024-05-04,Wireless Earbuds,Electronics,2,99.3,20,1.96,UK,Credit Card,158.88
+1199,CUST-0072,2024-03-22,Fitness Tracker,Electronics,2,121.02,0,1.23,India,Credit Card,242.04
+1200,CUST-0278,2024-06-14,Yoga Mat,Fitness Gear,2,140.27,0,6.85,UK,Credit Card,280.54
+1201,CUST-0251,2024-06-05,Wireless Earbuds,Electronics,5,120.02,10,,Germany,PayPal,540.09
+1202,CUST-0291,2024-08-02,Running Shoes,Footwear,5,234.39,0,1.26,Canada,PayPal,1171.95
+1203,CUST-0329,2024-07-15,Resistance Bands,Fitness Gear,1,183.0,0,9.72,Canada,Credit Card,183.0
+1204,CUST-0063,2024-06-02,Fitness Tracker,Electronics,4,197.55,0,1.51,USA,PayPal,790.2
+1205,CUST-0139,2024-01-15,Wireless Earbuds,Electronics,5,110.62,0,3.18,Canada,Bank Transfer,553.1
+1206,CUST-0208,2024-12-19,Fitness Tracker,Electronics,4,63.6,0,14.48,Canada,PayPal,254.4
+1207,CUST-0282,2024-11-04,Duffel Bag,Bags,2,174.86,0,9.75,USA,Bank Transfer,349.72
+1208,CUST-0294,2024-02-29,Running Shoes,Footwear,5,161.3,0,12.16,Australia,Debit Card,806.5
+1209,CUST-0028,2024-12-22,Yoga Mat,Fitness Gear,3,110.52,5,13.62,UK,Bank Transfer,314.98
+1210,CUST-0214,2024-04-07,Water Bottle,Accessories,4,206.22,0,2.22,Australia,Debit Card,824.88
+1211,CUST-0161,2024-06-15,Wireless Earbuds,Electronics,3,148.35,0,5.99,Canada,Bank Transfer,445.05
+1212,CUST-0105,2024-06-18,Backpack,Bags,3,48.62,0,,UK,Debit Card,145.86
+1213,CUST-0341,2024-02-09,Wireless Earbuds,Electronics,5,95.29,5,7.48,India,Bank Transfer,452.63
+1214,CUST-0169,2024-01-19,Yoga Mat,Fitness Gear,1,133.26,0,9.72,Canada,Credit Card,133.26
+1215,CUST-0371,2024-07-24,Wireless Earbuds,Electronics,3,159.08,0,11.44,UK,PayPal,477.24
+1216,CUST-0380,2024-04-11,Resistance Bands,Fitness Gear,5,22.37,15,7.53,India,Credit Card,95.07
+1217,CUST-0332,2024-10-19,Duffel Bag,Bags,2,172.28,0,0.01,USA,PayPal,344.56
+1218,CUST-0384,2024-10-02,Duffel Bag,Bags,4,45.29,0,14.41,UK,Debit Card,181.16
+1219,CUST-0280,2024-05-21,Backpack,Bags,1,165.21,15,5.78,Germany,PayPal,140.43
+1220,CUST-0029,2024-10-02,Wireless Earbuds,Electronics,4,82.95,0,1.59,USA,Credit Card,331.8
+1221,CUST-0398,2024-04-03,Running Shoes,Footwear,5,235.0,0,8.77,Australia,Debit Card,1175.0
+1222,CUST-0231,2024-10-16,Duffel Bag,Bags,5,204.28,15,8.82,Australia,PayPal,868.19
+1223,CUST-0101,2024-11-20,Running Shoes,Footwear,3,71.01,0,8.36,UK,PayPal,213.03
+1224,CUST-0253,2024-12-25,Duffel Bag,Bags,5,39.97,0,3.16,Nepal,Bank Transfer,199.85
+1225,CUST-0241,2024-04-28,Water Bottle,Accessories,2,83.24,15,4.93,USA,Bank Transfer,141.51
+1226,CUST-0092,2024-03-10,Running Shoes,Footwear,3,193.49,0,3.56,Germany,PayPal,580.47
+1227,CUST-0301,2024-02-20,Resistance Bands,Fitness Gear,1,184.85,10,0.78,UK,Credit Card,166.36
+1228,CUST-0122,2024-02-01,Fitness Tracker,Electronics,2,220.48,15,2.83,Australia,PayPal,374.82
+1229,CUST-0024,2024-05-26,Duffel Bag,Bags,1,137.01,5,14.65,USA,Debit Card,130.16
+1230,CUST-0227,2024-12-13,Duffel Bag,Bags,4,143.03,0,3.98,UK,PayPal,572.12
+1231,CUST-0100,2024-06-10,Water Bottle,Accessories,5,40.87,0,1.73,Nepal,Debit Card,204.35
+1232,CUST-0107,2024-03-09,Water Bottle,Accessories,5,62.17,10,,UK,Bank Transfer,279.77
+1233,CUST-0279,2024-05-14,Resistance Bands,Fitness Gear,4,111.47,0,7.99,Germany,Bank Transfer,445.88
+1234,CUST-0050,2024-05-19,Yoga Mat,Fitness Gear,3,188.99,0,,UK,Debit Card,566.97
+1235,CUST-0075,2024-10-22,Running Shoes,Footwear,3,56.1,5,,Australia,PayPal,159.88
+1236,CUST-0372,2024-06-06,Water Bottle,Accessories,3,171.43,10,3.73,Australia,Credit Card,462.86
+1237,CUST-0101,2024-07-05,Backpack,Bags,4,129.9,0,4.54,Canada,Credit Card,519.6
+1238,CUST-0214,2024-03-05,Duffel Bag,Bags,1,211.56,0,,Germany,Bank Transfer,211.56
+1239,CUST-0337,2024-12-24,Backpack,Bags,5,92.94,20,1.65,India,Bank Transfer,371.76
+1240,CUST-0262,2024-08-15,Fitness Tracker,Electronics,1,18.69,15,1.39,India,PayPal,15.89
+1241,CUST-0044,2024-04-06,Duffel Bag,Bags,3,165.09,0,,Canada,Bank Transfer,495.27
+1242,CUST-0234,2024-11-14,Duffel Bag,Bags,4,15.3,10,,Australia,PayPal,55.08
+1243,CUST-0280,2024-06-07,Backpack,Bags,3,94.24,0,13.33,Australia,Bank Transfer,282.72
+1244,CUST-0354,2024-08-14,Backpack,Bags,3,233.94,0,5.5,Nepal,PayPal,701.82
+1245,CUST-0092,2024-05-04,Running Shoes,Footwear,5,202.64,20,5.69,Nepal,PayPal,810.56
+1246,CUST-0364,2024-03-24,Wireless Earbuds,Electronics,2,239.64,0,8.68,Germany,Credit Card,479.28
+1247,CUST-0083,2024-09-08,Water Bottle,Accessories,4,56.01,0,9.76,Canada,Debit Card,224.04
+1248,CUST-0058,2024-09-06,Resistance Bands,Fitness Gear,5,65.65,0,6.23,USA,Bank Transfer,328.25
+1249,CUST-0119,2024-05-09,Wireless Earbuds,Electronics,2,17.48,15,4.92,UK,Debit Card,29.72
+1250,CUST-0123,2024-01-09,Backpack,Bags,3,23.75,5,3.23,UK,Debit Card,67.69
+1251,CUST-0258,2024-08-20,Fitness Tracker,Electronics,3,59.79,0,,India,Debit Card,179.37
+1252,CUST-0201,2024-05-18,Water Bottle,Accessories,4,164.98,15,6.79,UK,PayPal,560.93
+1253,CUST-0236,2024-10-25,Backpack,Bags,5,161.16,0,12.06,Canada,Credit Card,805.8
+1254,CUST-0137,2024-11-20,Water Bottle,Accessories,4,63.77,10,5.84,Nepal,Debit Card,229.57
+1255,CUST-0190,2024-07-21,Wireless Earbuds,Electronics,4,179.11,0,,UK,PayPal,716.44
+1256,CUST-0049,2024-04-23,Fitness Tracker,Electronics,3,180.25,20,8.48,Australia,Debit Card,432.6
+1257,CUST-0273,2024-03-20,Backpack,Bags,2,138.6,5,7.26,India,Bank Transfer,263.34
+1258,CUST-0205,2024-06-18,Wireless Earbuds,Electronics,1,95.41,0,9.72,UK,PayPal,95.41
+1259,CUST-0302,2024-09-22,Duffel Bag,Bags,3,134.73,0,10.03,USA,Debit Card,404.19
+1260,CUST-0118,2024-03-02,Water Bottle,Accessories,4,219.8,0,6.32,India,Debit Card,879.2
+1261,CUST-0286,2024-11-05,Duffel Bag,Bags,1,59.63,5,1.58,Germany,Debit Card,56.65
+1262,CUST-0022,2024-06-03,Fitness Tracker,Electronics,3,204.35,5,10.47,UK,Credit Card,582.4
+1263,CUST-0055,2024-08-01,Duffel Bag,Bags,3,56.2,20,6.7,UK,Bank Transfer,134.88
+1264,CUST-0292,2024-08-16,Running Shoes,Footwear,1,231.11,10,13.59,UK,Credit Card,208.0
+1265,CUST-0143,2024-06-15,Resistance Bands,Fitness Gear,5,75.37,5,7.56,Germany,PayPal,358.01
+1266,CUST-0153,2024-10-18,Backpack,Bags,5,94.52,15,,Australia,Credit Card,401.71
+1267,CUST-0299,2024-01-28,Resistance Bands,Fitness Gear,5,242.45,0,,Canada,Debit Card,1212.25
+1268,CUST-0119,2024-05-30,Resistance Bands,Fitness Gear,3,248.08,20,1.32,USA,Bank Transfer,595.39
+1269,CUST-0238,2024-12-01,Water Bottle,Accessories,1,177.95,0,4.94,Nepal,Bank Transfer,177.95
+1270,CUST-0114,2024-12-17,Yoga Mat,Fitness Gear,5,175.79,0,0.9,Canada,Bank Transfer,878.95
+1271,CUST-0332,2024-06-10,Duffel Bag,Bags,5,85.32,5,1.88,Nepal,PayPal,405.27
+1272,CUST-0224,2024-12-24,Duffel Bag,Bags,4,197.11,20,13.31,Germany,Debit Card,630.75
+1273,CUST-0392,2024-06-04,Yoga Mat,Fitness Gear,1,51.87,0,7.39,Germany,PayPal,51.87
+1274,CUST-0133,2024-01-25,Resistance Bands,Fitness Gear,3,74.25,0,14.32,Australia,Bank Transfer,222.75
+1275,CUST-0293,2024-06-21,Fitness Tracker,Electronics,3,169.35,15,14.53,USA,Debit Card,431.84
+1276,CUST-0113,2024-02-07,Water Bottle,Accessories,4,212.66,20,,Nepal,PayPal,680.51
+1277,CUST-0212,2024-12-03,Duffel Bag,Bags,1,184.49,0,3.98,Germany,PayPal,184.49
+1278,CUST-0045,2024-07-10,Running Shoes,Footwear,3,77.99,5,1.06,Canada,Credit Card,222.27
+1279,CUST-0190,2024-07-10,Backpack,Bags,2,120.53,15,11.31,USA,Bank Transfer,204.9
+1280,CUST-0082,2024-07-03,Duffel Bag,Bags,4,44.82,0,6.09,Nepal,PayPal,179.28
+1281,CUST-0369,2024-07-18,Duffel Bag,Bags,2,130.71,0,4.48,India,Debit Card,261.42
+1282,CUST-0391,2024-12-29,Running Shoes,Footwear,1,242.02,10,11.71,India,Debit Card,217.82
+1283,CUST-0228,2024-12-08,Running Shoes,Footwear,2,212.66,0,4.19,Canada,PayPal,425.32
+1284,CUST-0397,2024-11-23,Wireless Earbuds,Electronics,1,213.7,20,3.14,USA,Debit Card,170.96
+1285,CUST-0293,2024-11-19,Yoga Mat,Fitness Gear,4,64.77,0,0.37,Canada,Debit Card,259.08
+1286,CUST-0203,2024-05-29,Fitness Tracker,Electronics,5,216.72,0,0.14,Nepal,Credit Card,1083.6
+1287,CUST-0194,2024-01-15,Resistance Bands,Fitness Gear,3,172.29,10,2.83,USA,Credit Card,465.18
+1288,CUST-0127,2024-06-07,Wireless Earbuds,Electronics,5,78.12,20,3.61,UK,Bank Transfer,312.48
+1289,CUST-0052,2024-12-04,Water Bottle,Accessories,1,89.56,10,0.39,Nepal,Debit Card,80.6
+1290,CUST-0145,2024-07-23,Running Shoes,Footwear,5,81.56,0,2.76,Nepal,PayPal,407.8
+1291,CUST-0205,2024-08-28,Wireless Earbuds,Electronics,4,98.71,5,5.12,UK,Debit Card,375.1
+1292,CUST-0046,2024-12-13,Resistance Bands,Fitness Gear,4,121.3,5,13.8,Germany,Credit Card,460.94
+1293,CUST-0079,2024-10-28,Backpack,Bags,3,222.2,0,7.53,India,PayPal,666.6
+1294,CUST-0377,2024-09-30,Running Shoes,Footwear,3,183.97,10,4.52,Nepal,Debit Card,496.72
+1295,CUST-0012,2024-10-02,Resistance Bands,Fitness Gear,1,191.01,20,13.81,USA,Bank Transfer,152.81
+1296,CUST-0203,2024-07-08,Running Shoes,Footwear,5,155.15,5,7.12,UK,Debit Card,736.96
+1297,CUST-0023,2024-05-02,Backpack,Bags,4,235.09,0,,USA,Credit Card,940.36
+1298,CUST-0088,2024-07-26,Wireless Earbuds,Electronics,1,38.93,15,6.34,Canada,Bank Transfer,33.09
+1299,CUST-0316,2024-05-16,Duffel Bag,Bags,5,168.19,0,4.29,India,Debit Card,840.95
+1300,CUST-0052,2024-08-13,Backpack,Bags,2,189.67,20,13.95,USA,PayPal,303.47
+1301,CUST-0266,2024-11-05,Duffel Bag,Bags,1,228.11,20,11.35,Canada,Debit Card,182.49
+1302,CUST-0303,2024-08-07,Resistance Bands,Fitness Gear,3,36.27,0,6.46,Nepal,PayPal,108.81
+1303,CUST-0084,2024-09-06,Yoga Mat,Fitness Gear,4,111.05,0,3.77,India,PayPal,444.2
+1304,CUST-0386,2024-07-21,Yoga Mat,Fitness Gear,5,84.6,0,11.94,Australia,Bank Transfer,423.0
+1305,CUST-0382,2024-02-24,Backpack,Bags,4,189.94,0,12.12,Australia,Debit Card,759.76
+1306,CUST-0280,2024-02-21,Duffel Bag,Bags,4,45.95,10,13.12,UK,Bank Transfer,165.42
+1307,CUST-0029,2024-03-17,Fitness Tracker,Electronics,1,69.8,0,0.24,Nepal,PayPal,69.8
+1308,CUST-0398,2024-05-15,Backpack,Bags,5,142.72,5,4.25,UK,Bank Transfer,677.92
+1309,CUST-0106,2024-10-09,Yoga Mat,Fitness Gear,3,99.33,10,8.57,Nepal,Debit Card,268.19
+1310,CUST-0049,2024-01-05,Backpack,Bags,3,86.15,0,4.01,Canada,Bank Transfer,258.45
+1311,CUST-0150,2024-03-26,Backpack,Bags,5,38.16,0,1.96,Nepal,Credit Card,190.8
+1312,CUST-0272,2024-04-14,Fitness Tracker,Electronics,3,180.76,20,1.13,Canada,PayPal,433.82
+1313,CUST-0062,2024-04-04,Wireless Earbuds,Electronics,5,155.08,0,,Australia,Credit Card,775.4
+1314,CUST-0037,2024-03-10,Yoga Mat,Fitness Gear,4,15.96,0,14.16,UK,Credit Card,63.84
+1315,CUST-0201,2024-03-03,Water Bottle,Accessories,2,48.57,0,12.93,Australia,PayPal,97.14
+1316,CUST-0271,2024-03-09,Running Shoes,Footwear,2,174.61,5,10.87,UK,PayPal,331.76
+1317,CUST-0281,2024-06-29,Duffel Bag,Bags,1,153.03,20,2.66,UK,Debit Card,122.42
+1318,CUST-0188,2024-09-04,Running Shoes,Footwear,4,29.85,0,4.28,USA,PayPal,119.4
+1319,CUST-0036,2024-03-11,Wireless Earbuds,Electronics,2,244.15,5,13.05,India,Bank Transfer,463.88
+1320,CUST-0101,2024-07-07,Fitness Tracker,Electronics,4,116.01,15,14.84,UK,Debit Card,394.43
+1321,CUST-0317,2024-09-20,Yoga Mat,Fitness Gear,1,128.25,0,11.68,UK,Bank Transfer,128.25
+1322,CUST-0223,2024-01-23,Fitness Tracker,Electronics,1,144.38,10,2.82,USA,Credit Card,129.94
+1323,CUST-0099,2024-07-30,Yoga Mat,Fitness Gear,5,151.25,5,11.83,USA,Debit Card,718.44
+1324,CUST-0197,2024-09-26,Running Shoes,Footwear,2,208.7,10,,Nepal,Credit Card,375.66
+1325,CUST-0356,2024-05-13,Water Bottle,Accessories,4,204.77,0,12.89,USA,PayPal,819.08
+1326,CUST-0326,2024-05-19,Resistance Bands,Fitness Gear,4,137.28,0,0.9,UK,Bank Transfer,549.12
+1327,CUST-0015,2024-09-08,Backpack,Bags,1,110.18,0,13.78,India,Credit Card,110.18
+1328,CUST-0299,2024-10-09,Yoga Mat,Fitness Gear,3,101.16,0,13.72,USA,PayPal,303.48
+1329,CUST-0159,2024-08-06,Yoga Mat,Fitness Gear,2,35.07,0,6.73,Australia,PayPal,70.14
+1330,CUST-0275,2024-06-25,Fitness Tracker,Electronics,4,68.29,20,0.29,Nepal,Credit Card,218.53
+1331,CUST-0278,2024-07-13,Water Bottle,Accessories,1,228.75,20,12.22,UK,Credit Card,183.0
+1332,CUST-0073,2024-04-01,Backpack,Bags,5,89.01,0,7.55,Australia,Debit Card,445.05
+1333,CUST-0230,2024-05-12,Wireless Earbuds,Electronics,2,216.14,0,11.53,Germany,Credit Card,432.28
+1334,CUST-0355,2024-02-18,Running Shoes,Footwear,1,63.38,20,0.07,India,PayPal,50.7
+1335,CUST-0331,2024-12-26,Backpack,Bags,5,212.87,0,13.51,UK,Bank Transfer,1064.35
+1336,CUST-0170,2024-05-12,Resistance Bands,Fitness Gear,2,128.6,20,7.94,USA,Debit Card,205.76
+1337,CUST-0236,2024-01-01,Wireless Earbuds,Electronics,3,216.83,20,,USA,Bank Transfer,520.39
+1338,CUST-0165,2024-10-21,Running Shoes,Footwear,3,103.64,15,,Germany,Debit Card,264.28
+1339,CUST-0358,2024-04-23,Wireless Earbuds,Electronics,3,192.44,5,14.02,Canada,Credit Card,548.45
+1340,CUST-0073,2024-09-28,Backpack,Bags,4,221.29,0,4.23,UK,PayPal,885.16
+1341,CUST-0088,2024-05-19,Yoga Mat,Fitness Gear,5,135.22,0,7.13,UK,Bank Transfer,676.1
+1342,CUST-0201,2024-11-18,Wireless Earbuds,Electronics,2,132.02,15,10.1,Germany,Debit Card,224.43
+1343,CUST-0141,2024-03-02,Duffel Bag,Bags,1,194.37,15,14.6,UK,Credit Card,165.21
+1344,CUST-0084,2024-08-12,Duffel Bag,Bags,3,119.99,0,8.11,Australia,Credit Card,359.97
+1345,CUST-0286,2024-02-24,Resistance Bands,Fitness Gear,3,134.6,15,9.63,Nepal,Bank Transfer,343.23
+1346,CUST-0234,2024-08-12,Fitness Tracker,Electronics,1,214.85,20,0.91,USA,PayPal,171.88
+1347,CUST-0033,2024-10-26,Backpack,Bags,3,54.36,15,12.52,UK,Credit Card,138.62
+1348,CUST-0272,2024-03-05,Resistance Bands,Fitness Gear,5,115.92,0,12.82,Australia,Debit Card,579.6
+1349,CUST-0067,2024-12-21,Running Shoes,Footwear,3,34.59,15,12.31,USA,Debit Card,88.2
+1350,CUST-0057,2024-03-29,Running Shoes,Footwear,3,107.12,10,5.19,Nepal,Credit Card,289.22
+1351,CUST-0041,2024-09-18,Resistance Bands,Fitness Gear,4,173.83,10,2.87,Nepal,Debit Card,625.79
+1352,CUST-0320,2024-09-04,Wireless Earbuds,Electronics,1,227.1,0,8.26,USA,PayPal,227.1
+1353,CUST-0300,2024-06-06,Resistance Bands,Fitness Gear,3,201.28,20,5.75,Germany,Debit Card,483.07
+1354,CUST-0140,2024-09-28,Duffel Bag,Bags,1,81.81,5,14.95,Australia,Debit Card,77.72
+1355,CUST-0320,2024-08-01,Backpack,Bags,1,199.23,0,,UK,PayPal,199.23
+1356,CUST-0281,2024-02-21,Resistance Bands,Fitness Gear,1,176.73,0,12.44,USA,Debit Card,176.73
+1357,CUST-0289,2024-09-18,Water Bottle,Accessories,1,130.26,0,8.34,UK,PayPal,130.26
+1358,CUST-0152,2024-02-21,Running Shoes,Footwear,2,81.68,15,5.07,UK,PayPal,138.86
+1359,CUST-0023,2024-05-21,Water Bottle,Accessories,2,57.99,0,1.12,UK,Credit Card,115.98
+1360,CUST-0372,2024-03-11,Running Shoes,Footwear,4,149.88,0,7.26,Germany,Debit Card,599.52
+1361,CUST-0297,2024-04-27,Duffel Bag,Bags,5,168.69,0,7.23,Germany,Credit Card,843.45
+1362,CUST-0210,2024-03-15,Running Shoes,Footwear,4,87.76,10,4.13,India,Bank Transfer,315.94
+1363,CUST-0031,2024-05-21,Backpack,Bags,5,249.58,20,9.96,UK,Bank Transfer,998.32
+1364,CUST-0299,2024-09-01,Wireless Earbuds,Electronics,4,184.28,20,7.76,Germany,Bank Transfer,589.7
+1365,CUST-0279,2024-12-11,Resistance Bands,Fitness Gear,1,17.54,10,1.84,Germany,PayPal,15.79
+1366,CUST-0016,2024-04-23,Duffel Bag,Bags,3,111.36,15,,USA,PayPal,283.97
+1367,CUST-0030,2024-10-17,Yoga Mat,Fitness Gear,3,191.8,0,7.3,UK,Debit Card,575.4
+1368,CUST-0186,2024-11-05,Running Shoes,Footwear,5,162.17,20,1.99,Nepal,Bank Transfer,648.68
+1369,CUST-0353,2024-07-04,Yoga Mat,Fitness Gear,1,184.19,15,9.83,Germany,Debit Card,156.56
+1370,CUST-0107,2024-10-10,Wireless Earbuds,Electronics,2,78.53,15,10.96,USA,Credit Card,133.5
+1371,CUST-0125,2024-01-26,Backpack,Bags,2,31.47,0,10.67,Canada,Credit Card,62.94
+1372,CUST-0253,2024-03-19,Duffel Bag,Bags,3,122.69,5,13.3,Canada,Credit Card,349.67
+1373,CUST-0156,2024-06-05,Water Bottle,Accessories,2,37.75,0,6.84,Germany,PayPal,75.5
+1374,CUST-0123,2024-08-25,Wireless Earbuds,Electronics,1,245.64,10,3.42,Nepal,Debit Card,221.08
+1375,CUST-0089,2024-04-17,Resistance Bands,Fitness Gear,2,104.28,0,11.36,Nepal,Debit Card,208.56
+1376,CUST-0008,2024-12-18,Resistance Bands,Fitness Gear,4,45.8,0,11.01,Nepal,PayPal,183.2
+1377,CUST-0339,2024-05-15,Resistance Bands,Fitness Gear,2,34.44,0,3.79,Nepal,Debit Card,68.88
+1378,CUST-0109,2024-11-17,Resistance Bands,Fitness Gear,4,201.75,0,2.21,Germany,Debit Card,807.0
+1379,CUST-0047,2024-02-11,Water Bottle,Accessories,5,182.96,5,3.67,Canada,Bank Transfer,869.06
+1380,CUST-0113,2024-11-26,Wireless Earbuds,Electronics,2,225.35,10,6.35,USA,Credit Card,405.63
+1381,CUST-0249,2024-03-28,Resistance Bands,Fitness Gear,4,81.9,0,13.03,UK,Credit Card,327.6
+1382,CUST-0114,2024-11-09,Resistance Bands,Fitness Gear,2,207.57,20,12.38,India,Debit Card,332.11
+1383,CUST-0257,2024-11-26,Resistance Bands,Fitness Gear,2,54.74,5,13.94,Canada,PayPal,104.01
+1384,CUST-0021,2024-12-17,Water Bottle,Accessories,1,26.87,20,3.84,India,Credit Card,21.5
+1385,CUST-0370,2024-10-18,Fitness Tracker,Electronics,5,91.79,20,6.68,UK,Credit Card,367.16
+1386,CUST-0048,2024-05-04,Yoga Mat,Fitness Gear,4,43.97,20,,USA,PayPal,140.7
+1387,CUST-0025,2024-01-02,Wireless Earbuds,Electronics,4,194.45,0,,Canada,Bank Transfer,777.8
+1388,CUST-0048,2024-11-12,Running Shoes,Footwear,5,63.84,15,14.23,USA,Bank Transfer,271.32
+1389,CUST-0234,2024-01-28,Wireless Earbuds,Electronics,1,30.1,0,9.8,Canada,Credit Card,30.1
+1390,CUST-0061,2024-07-07,Yoga Mat,Fitness Gear,2,203.38,0,0.61,Germany,PayPal,406.76
+1391,CUST-0178,2024-02-10,Water Bottle,Accessories,3,84.93,5,6.63,USA,Bank Transfer,242.05
+1392,CUST-0374,2024-06-06,Water Bottle,Accessories,4,30.61,10,1.8,USA,PayPal,110.2
+1393,CUST-0271,2024-05-31,Backpack,Bags,1,157.81,5,,Canada,PayPal,149.92
+1394,CUST-0032,2024-10-16,Yoga Mat,Fitness Gear,5,188.47,0,2.83,Canada,Credit Card,942.35
+1395,CUST-0308,2024-11-26,Wireless Earbuds,Electronics,5,70.0,20,8.0,Germany,Bank Transfer,280.0
+1396,CUST-0361,2024-06-07,Fitness Tracker,Electronics,1,135.46,15,10.13,Canada,Debit Card,115.14
+1397,CUST-0228,2024-06-14,Wireless Earbuds,Electronics,1,18.18,10,2.64,UK,PayPal,16.36
+1398,CUST-0356,2024-04-14,Resistance Bands,Fitness Gear,2,70.04,5,2.92,India,Credit Card,133.08
+1399,CUST-0106,2024-02-12,Wireless Earbuds,Electronics,1,151.1,10,1.49,UK,Credit Card,135.99
+1400,CUST-0141,2024-06-04,Running Shoes,Footwear,1,33.49,0,1.34,Australia,PayPal,33.49
+1401,CUST-0242,2024-11-02,Duffel Bag,Bags,2,212.71,0,1.42,Canada,Credit Card,425.42
+1402,CUST-0275,2024-04-21,Fitness Tracker,Electronics,5,58.04,15,0.28,Canada,Credit Card,246.67
+1403,CUST-0054,2024-06-20,Running Shoes,Footwear,2,162.11,5,5.45,Germany,Debit Card,308.01
+1404,CUST-0145,2024-11-18,Backpack,Bags,3,243.11,20,,Germany,Debit Card,583.46
+1405,CUST-0338,2024-12-09,Wireless Earbuds,Electronics,4,136.29,0,4.48,USA,Bank Transfer,545.16
+1406,CUST-0068,2024-03-18,Duffel Bag,Bags,2,159.82,20,6.24,Canada,Credit Card,255.71
+1407,CUST-0023,2024-09-20,Backpack,Bags,1,187.54,0,6.9,Australia,PayPal,187.54
+1408,CUST-0293,2024-10-28,Resistance Bands,Fitness Gear,3,20.42,0,0.08,Germany,Credit Card,61.26
+1409,CUST-0219,2024-09-02,Wireless Earbuds,Electronics,2,197.2,0,11.58,Nepal,Credit Card,394.4
+1410,CUST-0227,2024-08-06,Running Shoes,Footwear,4,167.94,0,7.46,Australia,Debit Card,671.76
+1411,CUST-0174,2024-05-14,Resistance Bands,Fitness Gear,4,246.18,5,5.51,USA,Debit Card,935.48
+1412,CUST-0307,2024-06-21,Fitness Tracker,Electronics,4,102.76,10,5.01,Australia,Credit Card,369.94
+1413,CUST-0052,2024-10-12,Fitness Tracker,Electronics,1,151.9,0,0.19,Nepal,Credit Card,151.9
+1414,CUST-0087,2024-05-25,Water Bottle,Accessories,3,95.6,0,3.74,UK,Credit Card,286.8
+1415,CUST-0327,2024-12-04,Duffel Bag,Bags,5,240.09,10,5.96,Australia,Debit Card,1080.4
+1416,CUST-0097,2024-02-02,Fitness Tracker,Electronics,4,217.36,10,3.19,Nepal,Bank Transfer,782.5
+1417,CUST-0122,2024-11-28,Backpack,Bags,2,243.31,0,6.22,India,Bank Transfer,486.62
+1418,CUST-0173,2024-01-22,Yoga Mat,Fitness Gear,1,233.66,5,,Nepal,PayPal,221.98
+1419,CUST-0012,2024-10-27,Resistance Bands,Fitness Gear,2,207.84,5,11.76,Germany,Debit Card,394.9
+1420,CUST-0387,2024-02-07,Yoga Mat,Fitness Gear,1,169.58,0,4.11,USA,Credit Card,169.58
+1421,CUST-0203,2024-07-27,Yoga Mat,Fitness Gear,5,43.03,20,7.39,Australia,Debit Card,172.12
+1422,CUST-0281,2024-08-23,Duffel Bag,Bags,4,209.28,10,0.92,India,Bank Transfer,753.41
+1423,CUST-0380,2024-04-17,Yoga Mat,Fitness Gear,1,54.2,15,14.13,Germany,Debit Card,46.07
+1424,CUST-0264,2024-12-04,Resistance Bands,Fitness Gear,3,149.58,5,3.83,USA,Credit Card,426.3
+1425,CUST-0110,2024-08-20,Water Bottle,Accessories,5,69.77,0,1.7,USA,Debit Card,348.85
+1426,CUST-0188,2024-06-26,Resistance Bands,Fitness Gear,5,225.11,0,,Canada,Bank Transfer,1125.55
+1427,CUST-0348,2024-04-19,Backpack,Bags,1,190.38,15,13.75,Germany,Credit Card,161.82
+1428,CUST-0283,2024-09-13,Duffel Bag,Bags,3,107.67,0,10.13,UK,Credit Card,323.01
+1429,CUST-0005,2024-12-04,Water Bottle,Accessories,1,32.43,15,13.42,UK,Credit Card,27.57
+1430,CUST-0325,2024-10-26,Water Bottle,Accessories,5,102.96,0,2.64,UK,Credit Card,514.8
+1431,CUST-0231,2024-02-09,Resistance Bands,Fitness Gear,1,229.89,10,9.37,India,Credit Card,206.9
+1432,CUST-0038,2024-05-14,Resistance Bands,Fitness Gear,3,84.52,0,0.59,Australia,Bank Transfer,253.56
+1433,CUST-0261,2024-10-11,Backpack,Bags,1,232.68,0,,Canada,Debit Card,232.68
+1434,CUST-0210,2024-07-10,Running Shoes,Footwear,1,175.05,5,11.26,Germany,Credit Card,166.3
+1435,CUST-0323,2024-03-10,Running Shoes,Footwear,2,223.3,10,,India,PayPal,401.94
+1436,CUST-0333,2024-04-15,Wireless Earbuds,Electronics,5,28.24,15,6.57,Australia,Credit Card,120.02
+1437,CUST-0201,2024-10-06,Fitness Tracker,Electronics,1,135.92,5,11.69,UK,Credit Card,129.12
+1438,CUST-0268,2024-03-13,Water Bottle,Accessories,3,205.89,0,10.04,Australia,Credit Card,617.67
+1439,CUST-0208,2024-09-08,Water Bottle,Accessories,5,85.27,15,12.54,Australia,Debit Card,362.4
+1440,CUST-0200,2024-07-15,Wireless Earbuds,Electronics,5,56.03,20,7.76,UK,PayPal,224.12
+1441,CUST-0131,2024-02-02,Resistance Bands,Fitness Gear,1,241.7,10,8.69,Nepal,Bank Transfer,217.53
+1442,CUST-0316,2024-11-08,Water Bottle,Accessories,5,132.32,0,12.57,UK,Bank Transfer,661.6
+1443,CUST-0235,2024-06-25,Running Shoes,Footwear,3,222.38,0,10.34,Germany,Credit Card,667.14
+1444,CUST-0087,2024-11-19,Backpack,Bags,5,249.22,10,0.74,Germany,Debit Card,1121.49
+1445,CUST-0053,2024-05-08,Resistance Bands,Fitness Gear,4,127.69,20,6.56,India,PayPal,408.61
+1446,CUST-0365,2024-11-03,Yoga Mat,Fitness Gear,5,48.98,15,0.82,Germany,Debit Card,208.16
+1447,CUST-0209,2024-04-19,Running Shoes,Footwear,5,233.16,15,8.14,India,Bank Transfer,990.93
+1448,CUST-0090,2024-09-01,Water Bottle,Accessories,1,205.38,20,9.98,India,Bank Transfer,164.3
+1449,CUST-0288,2024-12-14,Duffel Bag,Bags,4,53.52,0,6.67,Germany,Bank Transfer,214.08
+1450,CUST-0137,2024-06-01,Wireless Earbuds,Electronics,2,231.53,5,13.34,India,Credit Card,439.91
+1451,CUST-0070,2024-08-02,Yoga Mat,Fitness Gear,5,172.38,0,0.22,Australia,Debit Card,861.9
+1452,CUST-0288,2024-12-29,Water Bottle,Accessories,4,218.67,20,12.61,Australia,Debit Card,699.74
+1453,CUST-0005,2024-12-30,Resistance Bands,Fitness Gear,5,216.61,10,0.39,Canada,Credit Card,974.75
+1454,CUST-0198,2024-01-25,Resistance Bands,Fitness Gear,3,117.78,0,,USA,Bank Transfer,353.34
+1455,CUST-0379,2024-02-02,Backpack,Bags,3,215.32,10,3.29,Germany,PayPal,581.36
+1456,CUST-0070,2024-10-16,Water Bottle,Accessories,3,185.88,0,10.21,Nepal,PayPal,557.64
+1457,CUST-0332,2024-02-19,Running Shoes,Footwear,5,246.79,10,14.86,Germany,PayPal,1110.56
+1458,CUST-0371,2024-06-19,Yoga Mat,Fitness Gear,4,213.43,0,6.47,Nepal,Credit Card,853.72
+1459,CUST-0018,2024-03-24,Water Bottle,Accessories,4,161.73,20,6.18,UK,PayPal,517.54
+1460,CUST-0317,2024-04-06,Wireless Earbuds,Electronics,3,216.33,0,5.89,Germany,PayPal,648.99
+1461,CUST-0001,2024-11-01,Resistance Bands,Fitness Gear,4,23.41,10,13.59,USA,PayPal,84.28
+1462,CUST-0163,2024-08-23,Fitness Tracker,Electronics,1,148.56,0,10.2,Australia,Bank Transfer,148.56
+1463,CUST-0301,2024-01-17,Duffel Bag,Bags,3,218.61,0,,India,PayPal,655.83
+1464,CUST-0368,2024-01-10,Running Shoes,Footwear,4,84.5,0,9.92,Canada,Debit Card,338.0
+1465,CUST-0185,2024-01-18,Resistance Bands,Fitness Gear,2,83.12,0,14.6,UK,PayPal,166.24
+1466,CUST-0064,2024-08-12,Yoga Mat,Fitness Gear,4,99.09,20,,USA,Bank Transfer,317.09
+1467,CUST-0370,2024-11-03,Water Bottle,Accessories,1,140.85,15,3.36,USA,Bank Transfer,119.72
+1468,CUST-0031,2024-02-16,Fitness Tracker,Electronics,2,122.45,0,10.98,Nepal,Debit Card,244.9
+1469,CUST-0247,2024-12-03,Yoga Mat,Fitness Gear,5,109.04,0,,Australia,PayPal,545.2
+1470,CUST-0399,2024-03-24,Water Bottle,Accessories,4,225.68,15,6.12,USA,Debit Card,767.31
+1471,CUST-0349,2024-01-11,Water Bottle,Accessories,5,127.48,0,11.94,Nepal,Bank Transfer,637.4
+1472,CUST-0257,2024-03-05,Resistance Bands,Fitness Gear,3,172.26,0,9.14,USA,Credit Card,516.78
+1473,CUST-0351,2024-09-29,Yoga Mat,Fitness Gear,5,41.73,5,1.19,Canada,Credit Card,198.22
+1474,CUST-0111,2024-02-01,Backpack,Bags,3,215.54,0,,Germany,PayPal,646.62
+1475,CUST-0079,2024-12-01,Backpack,Bags,5,91.17,5,1.83,Nepal,Credit Card,433.06
+1476,CUST-0266,2024-04-05,Wireless Earbuds,Electronics,5,99.44,20,3.14,USA,Credit Card,397.76
+1477,CUST-0311,2024-01-21,Duffel Bag,Bags,4,242.67,5,5.19,Canada,Debit Card,922.15
+1478,CUST-0348,2024-06-23,Yoga Mat,Fitness Gear,3,209.22,0,3.66,India,Debit Card,627.66
+1479,CUST-0128,2024-07-24,Backpack,Bags,5,76.39,20,0.46,Australia,PayPal,305.56
+1480,CUST-0222,2024-02-24,Fitness Tracker,Electronics,5,113.78,0,2.42,Canada,PayPal,568.9
+1481,CUST-0362,2024-01-13,Water Bottle,Accessories,5,97.72,0,12.07,Australia,Credit Card,488.6
+1482,CUST-0269,2024-02-29,Water Bottle,Accessories,3,120.1,5,6.8,India,Bank Transfer,342.28
+1483,CUST-0002,2024-10-15,Wireless Earbuds,Electronics,1,176.41,10,14.42,Canada,Bank Transfer,158.77
+1484,CUST-0158,2024-07-17,Water Bottle,Accessories,4,83.71,0,5.18,USA,PayPal,334.84
+1485,CUST-0276,2024-02-03,Duffel Bag,Bags,1,110.09,5,10.4,Canada,PayPal,104.59
+1486,CUST-0236,2024-04-23,Running Shoes,Footwear,4,213.11,5,11.58,UK,PayPal,809.82
+1487,CUST-0279,2024-10-12,Resistance Bands,Fitness Gear,2,184.89,0,12.02,Australia,Credit Card,369.78
+1488,CUST-0125,2024-12-09,Backpack,Bags,3,110.43,10,12.09,Germany,PayPal,298.16
+1489,CUST-0021,2024-02-09,Water Bottle,Accessories,2,201.57,0,,UK,Bank Transfer,403.14
+1490,CUST-0192,2024-11-22,Resistance Bands,Fitness Gear,2,140.37,20,13.32,Canada,Bank Transfer,224.59
+1491,CUST-0076,2024-08-30,Running Shoes,Footwear,5,181.27,0,1.91,USA,Credit Card,906.35
+1492,CUST-0136,2024-09-05,Duffel Bag,Bags,4,168.33,5,7.21,Germany,Debit Card,639.65
+1493,CUST-0021,2024-04-27,Resistance Bands,Fitness Gear,4,75.42,15,0.22,Canada,Debit Card,256.43
+1494,CUST-0075,2024-02-27,Running Shoes,Footwear,1,64.19,20,10.99,Australia,Debit Card,51.35
+1495,CUST-0335,2024-06-14,Resistance Bands,Fitness Gear,1,73.74,0,13.97,USA,Debit Card,73.74
+1496,CUST-0292,2024-07-30,Water Bottle,Accessories,1,197.75,0,14.26,Nepal,PayPal,197.75
+1497,CUST-0221,2024-11-26,Yoga Mat,Fitness Gear,4,71.33,10,7.98,Australia,Debit Card,256.79
+1498,CUST-0321,2024-10-22,Backpack,Bags,2,59.9,15,12.11,Germany,PayPal,101.83
+1499,CUST-0115,2024-09-08,Running Shoes,Footwear,3,203.28,20,2.96,UK,Credit Card,487.87
+1500,CUST-0110,2024-09-14,Yoga Mat,Fitness Gear,2,86.73,0,4.21,Nepal,Credit Card,173.46
+1501,CUST-0274,2024-09-17,Backpack,Bags,3,55.35,0,10.19,Nepal,Credit Card,166.05
+1502,CUST-0123,2024-12-25,Backpack,Bags,1,94.46,15,13.01,Canada,PayPal,80.29
+1503,CUST-0197,2024-07-08,Running Shoes,Footwear,4,158.01,10,2.0,Canada,Bank Transfer,568.84
+1504,CUST-0125,2024-08-09,Wireless Earbuds,Electronics,1,177.37,0,9.67,India,PayPal,177.37
+1505,CUST-0187,2024-09-07,Running Shoes,Footwear,5,20.22,20,3.78,Canada,PayPal,80.88
+1506,CUST-0171,2024-07-13,Wireless Earbuds,Electronics,4,39.24,0,8.58,Canada,PayPal,156.96
+1507,CUST-0103,2024-02-21,Running Shoes,Footwear,1,128.02,20,,Nepal,Debit Card,102.42
+1508,CUST-0028,2024-07-13,Fitness Tracker,Electronics,3,246.87,0,7.3,Nepal,Debit Card,740.61
+1509,CUST-0341,2024-01-24,Backpack,Bags,1,82.72,0,,Nepal,Debit Card,82.72
+1510,CUST-0120,2024-02-23,Duffel Bag,Bags,1,15.43,10,14.04,UK,Bank Transfer,13.89
+1511,CUST-0210,2024-11-28,Yoga Mat,Fitness Gear,4,46.77,0,5.67,Australia,Credit Card,187.08
+1512,CUST-0018,2024-09-03,Duffel Bag,Bags,3,175.64,0,6.09,UK,PayPal,526.92
+1513,CUST-0266,2024-03-19,Running Shoes,Footwear,1,28.76,0,14.71,Australia,Credit Card,28.76
+1514,CUST-0112,2024-04-07,Backpack,Bags,4,104.17,5,14.68,Australia,PayPal,395.85
+1515,CUST-0365,2024-04-27,Wireless Earbuds,Electronics,2,204.01,0,5.25,Canada,Credit Card,408.02
+1516,CUST-0390,2024-07-21,Yoga Mat,Fitness Gear,3,44.56,15,,Australia,Debit Card,113.63
+1517,CUST-0288,2024-05-01,Running Shoes,Footwear,5,153.75,15,13.64,India,Bank Transfer,653.44
+1518,CUST-0184,2024-03-09,Fitness Tracker,Electronics,2,16.25,0,,Australia,PayPal,32.5
+1519,CUST-0387,2024-12-27,Fitness Tracker,Electronics,5,99.58,10,11.97,Germany,Bank Transfer,448.11
+1520,CUST-0154,2024-09-09,Backpack,Bags,2,63.0,5,2.71,Nepal,Credit Card,119.7
+1521,CUST-0176,2024-07-16,Duffel Bag,Bags,5,35.12,20,,Canada,Debit Card,140.48
+1522,CUST-0372,2024-11-08,Yoga Mat,Fitness Gear,4,100.8,0,1.62,Nepal,Credit Card,403.2
+1523,CUST-0184,2024-03-13,Yoga Mat,Fitness Gear,5,137.35,0,5.97,USA,PayPal,686.75
+1524,CUST-0134,2024-11-25,Wireless Earbuds,Electronics,1,20.91,0,12.71,Germany,Credit Card,20.91
+1525,CUST-0020,2024-10-29,Yoga Mat,Fitness Gear,2,32.51,20,1.06,Australia,Credit Card,52.02
+1526,CUST-0168,2024-12-01,Wireless Earbuds,Electronics,4,212.74,0,3.12,Australia,Debit Card,850.96
+1527,CUST-0257,2024-07-30,Yoga Mat,Fitness Gear,1,135.72,15,2.68,Canada,Bank Transfer,115.36
+1528,CUST-0146,2024-06-11,Resistance Bands,Fitness Gear,3,134.51,0,13.95,Canada,Debit Card,403.53
+1529,CUST-0382,2024-04-29,Running Shoes,Footwear,3,55.39,20,8.15,Australia,PayPal,132.94
+1530,CUST-0356,2024-12-02,Wireless Earbuds,Electronics,3,173.04,5,1.66,India,PayPal,493.16
+1531,CUST-0260,2024-07-18,Wireless Earbuds,Electronics,5,116.47,0,7.3,UK,Credit Card,582.35
+1532,CUST-0247,2024-04-14,Running Shoes,Footwear,2,208.07,5,,USA,Debit Card,395.33
+1533,CUST-0272,2024-02-29,Duffel Bag,Bags,4,219.92,0,,USA,PayPal,879.68
+1534,CUST-0235,2024-05-03,Duffel Bag,Bags,1,61.37,15,7.06,Canada,Credit Card,52.16
+1535,CUST-0388,2024-04-04,Running Shoes,Footwear,1,100.02,15,6.71,Germany,Credit Card,85.02
+1536,CUST-0286,2024-05-06,Fitness Tracker,Electronics,3,51.74,5,8.07,UK,PayPal,147.46
+1537,CUST-0072,2024-04-12,Yoga Mat,Fitness Gear,2,80.18,0,4.86,Canada,Debit Card,160.36
+1538,CUST-0172,2024-05-08,Backpack,Bags,1,75.62,5,4.37,Germany,Debit Card,71.84
+1539,CUST-0228,2024-03-08,Fitness Tracker,Electronics,5,36.06,0,0.97,Germany,PayPal,180.3
+1540,CUST-0170,2024-02-26,Duffel Bag,Bags,3,79.73,20,12.69,India,Debit Card,191.35
+1541,CUST-0018,2024-10-06,Wireless Earbuds,Electronics,4,214.93,10,5.7,USA,Bank Transfer,773.75
+1542,CUST-0090,2024-07-24,Water Bottle,Accessories,4,97.31,20,,Germany,Bank Transfer,311.39
+1543,CUST-0197,2024-06-07,Duffel Bag,Bags,3,193.77,0,9.46,UK,Debit Card,581.31
+1544,CUST-0005,2024-03-20,Fitness Tracker,Electronics,3,199.08,0,,USA,Credit Card,597.24
+1545,CUST-0028,2024-09-11,Resistance Bands,Fitness Gear,3,25.87,0,6.75,Nepal,Debit Card,77.61
+1546,CUST-0225,2024-10-27,Backpack,Bags,3,63.61,0,12.88,India,Credit Card,190.83
+1547,CUST-0243,2024-02-28,Duffel Bag,Bags,2,173.28,0,14.17,Nepal,Credit Card,346.56
+1548,CUST-0173,2024-06-28,Yoga Mat,Fitness Gear,3,213.19,10,4.06,Nepal,PayPal,575.61
+1549,CUST-0155,2024-11-10,Water Bottle,Accessories,5,74.38,20,14.46,Nepal,Credit Card,297.52
+1550,CUST-0192,2024-11-28,Backpack,Bags,2,28.1,5,10.57,UK,PayPal,53.39
+1551,CUST-0301,2024-01-23,Running Shoes,Footwear,2,168.61,20,13.92,Nepal,Bank Transfer,269.78
+1552,CUST-0378,2024-11-14,Wireless Earbuds,Electronics,3,194.95,20,12.15,USA,Bank Transfer,467.88
+1553,CUST-0162,2024-03-15,Wireless Earbuds,Electronics,5,218.86,0,8.33,Nepal,Credit Card,1094.3
+1554,CUST-0246,2024-02-16,Running Shoes,Footwear,3,114.76,20,11.0,Australia,Credit Card,275.42
+1555,CUST-0051,2024-12-21,Wireless Earbuds,Electronics,4,230.25,10,10.69,UK,Debit Card,828.9
+1556,CUST-0338,2024-08-12,Wireless Earbuds,Electronics,4,74.27,0,5.35,Australia,Debit Card,297.08
+1557,CUST-0008,2024-09-12,Backpack,Bags,5,170.42,20,11.72,Nepal,Credit Card,681.68
+1558,CUST-0043,2024-09-09,Duffel Bag,Bags,1,228.75,10,8.12,Nepal,Bank Transfer,205.88
+1559,CUST-0286,2024-10-12,Wireless Earbuds,Electronics,4,239.63,0,8.92,Germany,PayPal,958.52
+1560,CUST-0240,2024-08-10,Duffel Bag,Bags,4,203.6,20,1.37,India,Credit Card,651.52
+1561,CUST-0063,2024-06-29,Wireless Earbuds,Electronics,2,174.69,20,3.85,USA,Credit Card,279.5
+1562,CUST-0043,2024-10-19,Backpack,Bags,1,169.19,5,13.79,Australia,Credit Card,160.73
+1563,CUST-0388,2024-03-04,Water Bottle,Accessories,1,238.87,0,4.21,UK,Credit Card,238.87
+1564,CUST-0393,2024-04-14,Fitness Tracker,Electronics,3,92.27,5,,UK,PayPal,262.97
+1565,CUST-0063,2024-07-13,Water Bottle,Accessories,3,222.98,20,11.64,USA,Credit Card,535.15
+1566,CUST-0260,2024-01-26,Resistance Bands,Fitness Gear,3,214.13,0,9.83,Australia,Debit Card,642.39
+1567,CUST-0065,2024-08-16,Water Bottle,Accessories,5,30.58,0,6.28,Nepal,PayPal,152.9
+1568,CUST-0399,2024-01-14,Resistance Bands,Fitness Gear,2,221.66,0,,USA,PayPal,443.32
+1569,CUST-0314,2024-03-15,Backpack,Bags,1,113.26,10,5.92,India,Bank Transfer,101.93
+1570,CUST-0253,2024-10-03,Yoga Mat,Fitness Gear,3,135.2,15,2.7,USA,Debit Card,344.76
+1571,CUST-0089,2024-01-04,Water Bottle,Accessories,2,19.79,0,4.25,Canada,PayPal,39.58
+1572,CUST-0237,2024-08-06,Resistance Bands,Fitness Gear,2,67.05,0,12.13,Canada,Debit Card,134.1
+1573,CUST-0251,2024-12-11,Yoga Mat,Fitness Gear,3,157.53,20,6.27,Germany,Credit Card,378.07
+1574,CUST-0001,2024-03-13,Running Shoes,Footwear,1,131.65,10,3.21,Canada,Bank Transfer,118.49
+1575,CUST-0253,2024-03-16,Water Bottle,Accessories,2,68.53,15,13.45,UK,Bank Transfer,116.5
+1576,CUST-0187,2024-04-06,Yoga Mat,Fitness Gear,5,129.01,0,13.97,India,PayPal,645.05
+1577,CUST-0046,2024-12-16,Water Bottle,Accessories,5,56.71,20,,UK,PayPal,226.84
+1578,CUST-0087,2024-08-21,Resistance Bands,Fitness Gear,4,143.29,0,,Australia,Debit Card,573.16
+1579,CUST-0260,2024-04-14,Water Bottle,Accessories,1,94.18,5,4.64,Nepal,PayPal,89.47
+1580,CUST-0130,2024-05-03,Running Shoes,Footwear,4,20.75,0,,UK,PayPal,83.0
+1581,CUST-0332,2024-10-12,Running Shoes,Footwear,2,241.27,5,13.92,UK,PayPal,458.41
+1582,CUST-0192,2024-03-08,Duffel Bag,Bags,1,167.31,5,1.02,Australia,PayPal,158.94
+1583,CUST-0033,2024-07-26,Backpack,Bags,4,183.55,10,,Germany,Credit Card,660.78
+1584,CUST-0364,2024-02-03,Duffel Bag,Bags,1,208.56,10,12.99,Germany,Debit Card,187.7
+1585,CUST-0395,2024-05-15,Running Shoes,Footwear,1,65.46,0,11.15,Germany,Bank Transfer,65.46
+1586,CUST-0013,2024-07-11,Running Shoes,Footwear,4,120.28,0,8.99,Nepal,PayPal,481.12
+1587,CUST-0308,2024-10-17,Fitness Tracker,Electronics,2,187.51,5,7.21,USA,Debit Card,356.27
+1588,CUST-0334,2024-09-11,Water Bottle,Accessories,2,190.76,15,5.42,Canada,Bank Transfer,324.29
+1589,CUST-0021,2024-06-28,Fitness Tracker,Electronics,1,113.15,20,3.8,Germany,PayPal,90.52
+1590,CUST-0046,2024-03-08,Water Bottle,Accessories,5,201.11,10,13.61,Nepal,Debit Card,905.0
+1591,CUST-0144,2024-04-29,Water Bottle,Accessories,4,140.78,15,3.46,India,Bank Transfer,478.65
+1592,CUST-0053,2024-01-23,Resistance Bands,Fitness Gear,2,205.82,5,8.5,Nepal,Credit Card,391.06
+1593,CUST-0261,2024-01-08,Yoga Mat,Fitness Gear,3,58.46,0,7.64,UK,Bank Transfer,175.38
+1594,CUST-0111,2024-11-14,Duffel Bag,Bags,4,91.02,0,2.37,Australia,Debit Card,364.08
+1595,CUST-0088,2024-07-15,Backpack,Bags,4,49.52,15,3.28,USA,Bank Transfer,168.37
+1596,CUST-0071,2024-07-14,Yoga Mat,Fitness Gear,4,171.65,20,5.19,USA,Credit Card,549.28
+1597,CUST-0240,2024-02-19,Backpack,Bags,4,152.75,5,1.26,India,PayPal,580.45
+1598,CUST-0216,2024-09-21,Duffel Bag,Bags,2,112.92,10,5.15,Germany,Bank Transfer,203.26
+1599,CUST-0333,2024-07-29,Water Bottle,Accessories,2,236.74,20,13.8,USA,Credit Card,378.78
+1600,CUST-0025,2024-01-06,Backpack,Bags,5,215.6,15,,Germany,PayPal,916.3
+1601,CUST-0266,2024-07-17,Wireless Earbuds,Electronics,3,135.32,15,7.05,Nepal,Credit Card,345.07
+1602,CUST-0019,2024-10-21,Running Shoes,Footwear,4,118.58,20,1.57,India,Debit Card,379.46
+1603,CUST-0046,2024-06-13,Water Bottle,Accessories,2,211.36,15,12.49,Canada,Bank Transfer,359.31
+1604,CUST-0333,2024-01-22,Wireless Earbuds,Electronics,5,97.31,0,1.48,Nepal,Debit Card,486.55
+1605,CUST-0095,2024-09-25,Yoga Mat,Fitness Gear,3,51.15,20,12.26,Australia,PayPal,122.76
+1606,CUST-0044,2024-03-26,Running Shoes,Footwear,1,229.83,20,10.87,Germany,Credit Card,183.86
+1607,CUST-0095,2024-12-24,Resistance Bands,Fitness Gear,4,38.42,5,4.47,Germany,Credit Card,146.0
+1608,CUST-0021,2024-08-26,Resistance Bands,Fitness Gear,1,27.19,0,5.48,Australia,PayPal,27.19
+1609,CUST-0030,2024-12-10,Water Bottle,Accessories,4,192.53,0,1.67,India,PayPal,770.12
+1610,CUST-0095,2024-07-21,Yoga Mat,Fitness Gear,2,60.99,15,14.62,Germany,Credit Card,103.68
+1611,CUST-0293,2024-06-11,Wireless Earbuds,Electronics,3,40.96,0,7.53,Canada,Credit Card,122.88
+1612,CUST-0396,2024-10-03,Yoga Mat,Fitness Gear,1,44.01,5,10.91,India,Debit Card,41.81
+1613,CUST-0104,2024-12-28,Fitness Tracker,Electronics,2,166.23,10,11.34,Germany,Bank Transfer,299.21
+1614,CUST-0173,2024-10-27,Running Shoes,Footwear,3,88.88,20,11.72,Nepal,Credit Card,213.31
+1615,CUST-0343,2024-10-18,Backpack,Bags,2,150.59,15,,Nepal,PayPal,256.0
+1616,CUST-0133,2024-01-25,Wireless Earbuds,Electronics,5,90.83,0,5.11,India,Bank Transfer,454.15
+1617,CUST-0137,2024-03-31,Resistance Bands,Fitness Gear,3,120.88,0,8.57,Canada,Debit Card,362.64
+1618,CUST-0349,2024-12-03,Running Shoes,Footwear,4,155.17,0,8.31,Germany,Bank Transfer,620.68
+1619,CUST-0201,2024-07-26,Fitness Tracker,Electronics,5,166.29,5,9.56,Canada,Debit Card,789.88
+1620,CUST-0172,2024-10-01,Duffel Bag,Bags,4,178.68,15,7.69,Canada,Credit Card,607.51
+1621,CUST-0272,2024-10-18,Wireless Earbuds,Electronics,3,174.76,5,,Australia,Credit Card,498.07
+1622,CUST-0061,2024-03-08,Wireless Earbuds,Electronics,1,102.87,5,12.78,India,Credit Card,97.73
+1623,CUST-0376,2024-08-26,Duffel Bag,Bags,1,109.54,0,1.26,USA,Credit Card,109.54
+1624,CUST-0350,2024-07-25,Wireless Earbuds,Electronics,3,196.06,15,,Nepal,PayPal,499.95
+1625,CUST-0084,2024-10-28,Water Bottle,Accessories,3,219.81,20,13.09,UK,Bank Transfer,527.54
+1626,CUST-0246,2024-06-20,Duffel Bag,Bags,5,24.75,5,0.33,UK,Credit Card,117.56
+1627,CUST-0321,2024-07-11,Yoga Mat,Fitness Gear,1,180.07,5,4.74,India,PayPal,171.07
+1628,CUST-0356,2024-03-19,Yoga Mat,Fitness Gear,4,170.99,15,13.91,Nepal,Debit Card,581.37
+1629,CUST-0062,2024-08-18,Yoga Mat,Fitness Gear,1,99.08,15,8.72,Nepal,Credit Card,84.22
+1630,CUST-0194,2024-06-11,Duffel Bag,Bags,4,188.19,20,13.96,Canada,Credit Card,602.21
+1631,CUST-0342,2024-10-11,Resistance Bands,Fitness Gear,2,77.56,10,12.54,UK,Bank Transfer,139.61
+1632,CUST-0370,2024-04-20,Backpack,Bags,1,63.06,20,6.62,Australia,Credit Card,50.45
+1633,CUST-0243,2024-11-09,Running Shoes,Footwear,5,215.69,5,6.49,UK,Credit Card,1024.53
+1634,CUST-0116,2024-08-20,Fitness Tracker,Electronics,2,180.01,20,1.29,Nepal,PayPal,288.02
+1635,CUST-0151,2024-06-10,Backpack,Bags,2,150.46,5,4.37,USA,Credit Card,285.87
+1636,CUST-0093,2024-01-11,Running Shoes,Footwear,5,130.87,5,3.58,USA,Debit Card,621.63
+1637,CUST-0303,2024-06-02,Duffel Bag,Bags,4,246.71,20,7.02,USA,Debit Card,789.47
+1638,CUST-0346,2024-08-16,Wireless Earbuds,Electronics,1,224.86,0,14.26,USA,Bank Transfer,224.86
+1639,CUST-0174,2024-10-10,Wireless Earbuds,Electronics,4,137.39,5,11.94,Nepal,PayPal,522.08
+1640,CUST-0250,2024-04-03,Duffel Bag,Bags,5,99.57,5,0.47,Australia,Bank Transfer,472.96
+1641,CUST-0258,2024-10-30,Fitness Tracker,Electronics,3,113.67,15,8.15,Germany,PayPal,289.86
+1642,CUST-0047,2024-11-23,Yoga Mat,Fitness Gear,4,131.58,10,9.89,Australia,PayPal,473.69
+1643,CUST-0273,2024-10-27,Running Shoes,Footwear,2,234.33,15,12.31,USA,Debit Card,398.36
+1644,CUST-0389,2024-06-03,Water Bottle,Accessories,1,46.04,5,,India,Debit Card,43.74
+1645,CUST-0307,2024-02-07,Running Shoes,Footwear,5,156.32,10,0.13,Canada,Credit Card,703.44
+1646,CUST-0034,2024-02-09,Running Shoes,Footwear,1,41.78,0,14.88,Australia,Credit Card,41.78
+1647,CUST-0228,2024-02-02,Running Shoes,Footwear,5,246.3,20,12.65,USA,PayPal,985.2
+1648,CUST-0176,2024-10-01,Fitness Tracker,Electronics,3,209.68,15,8.56,Nepal,Debit Card,534.68
+1649,CUST-0369,2024-01-27,Resistance Bands,Fitness Gear,4,155.83,15,,UK,Debit Card,529.82
+1650,CUST-0010,2024-08-14,Fitness Tracker,Electronics,3,103.21,15,0.96,Canada,Debit Card,263.19
+1651,CUST-0326,2024-10-18,Duffel Bag,Bags,3,92.41,0,1.91,India,PayPal,277.23
+1652,CUST-0147,2024-06-05,Water Bottle,Accessories,4,140.05,5,7.81,Germany,Debit Card,532.19
+1653,CUST-0156,2024-06-23,Running Shoes,Footwear,1,126.85,0,0.84,Canada,Bank Transfer,126.85
+1654,CUST-0277,2024-01-28,Fitness Tracker,Electronics,4,38.62,5,0.22,India,Debit Card,146.76
+1655,CUST-0125,2024-01-07,Resistance Bands,Fitness Gear,4,130.74,0,2.99,USA,Debit Card,522.96
+1656,CUST-0124,2024-12-11,Duffel Bag,Bags,4,163.88,20,12.11,UK,Bank Transfer,524.42
+1657,CUST-0215,2024-04-10,Fitness Tracker,Electronics,3,247.54,15,6.52,UK,Debit Card,631.23
+1658,CUST-0133,2024-08-29,Duffel Bag,Bags,1,25.52,0,4.77,UK,PayPal,25.52
+1659,CUST-0357,2024-02-05,Duffel Bag,Bags,5,193.23,20,14.65,USA,Debit Card,772.92
+1660,CUST-0121,2024-11-07,Backpack,Bags,5,135.64,10,12.61,Australia,PayPal,610.38
+1661,CUST-0114,2024-04-26,Backpack,Bags,4,124.83,20,8.23,UK,Credit Card,399.46
+1662,CUST-0304,2024-06-22,Wireless Earbuds,Electronics,1,163.03,15,,USA,Bank Transfer,138.58
+1663,CUST-0384,2024-12-11,Running Shoes,Footwear,5,213.94,10,10.98,USA,Debit Card,962.73
+1664,CUST-0298,2024-10-04,Water Bottle,Accessories,4,77.24,15,1.5,Nepal,Credit Card,262.62
+1665,CUST-0091,2024-08-28,Duffel Bag,Bags,3,98.62,5,9.24,UK,Debit Card,281.07
+1666,CUST-0306,2024-09-23,Water Bottle,Accessories,1,244.68,0,12.15,Nepal,Debit Card,244.68
+1667,CUST-0229,2024-01-08,Duffel Bag,Bags,1,118.68,10,9.49,Australia,PayPal,106.81
+1668,CUST-0131,2024-07-10,Yoga Mat,Fitness Gear,3,173.39,10,,Canada,Debit Card,468.15
+1669,CUST-0051,2024-01-06,Backpack,Bags,1,91.3,15,5.22,Nepal,Debit Card,77.6
+1670,CUST-0187,2024-10-18,Running Shoes,Footwear,2,33.39,0,12.82,USA,PayPal,66.78
+1671,CUST-0024,2024-08-28,Water Bottle,Accessories,3,143.47,10,7.58,Nepal,PayPal,387.37
+1672,CUST-0039,2024-06-05,Fitness Tracker,Electronics,5,200.97,5,0.75,Australia,Bank Transfer,954.61
+1673,CUST-0210,2024-08-05,Duffel Bag,Bags,2,147.57,0,,Nepal,Credit Card,295.14
+1674,CUST-0071,2024-11-24,Water Bottle,Accessories,3,246.82,20,13.69,Canada,Credit Card,592.37
+1675,CUST-0248,2024-10-08,Yoga Mat,Fitness Gear,2,144.05,10,0.12,Canada,PayPal,259.29
+1676,CUST-0091,2024-06-09,Running Shoes,Footwear,4,129.76,0,0.17,Nepal,PayPal,519.04
+1677,CUST-0230,2024-03-19,Running Shoes,Footwear,1,140.68,10,,India,Credit Card,126.61
+1678,CUST-0003,2024-09-24,Backpack,Bags,1,28.94,20,2.12,India,Credit Card,23.15
+1679,CUST-0025,2024-09-24,Resistance Bands,Fitness Gear,5,65.07,0,4.28,Germany,Bank Transfer,325.35
+1680,CUST-0057,2024-05-06,Yoga Mat,Fitness Gear,4,209.74,0,14.99,Australia,PayPal,838.96
+1681,CUST-0112,2024-02-03,Wireless Earbuds,Electronics,4,69.01,15,1.57,India,Bank Transfer,234.63
+1682,CUST-0014,2024-09-20,Resistance Bands,Fitness Gear,4,18.36,5,6.73,India,PayPal,69.77
+1683,CUST-0031,2024-11-05,Duffel Bag,Bags,3,98.42,10,9.95,Nepal,PayPal,265.73
+1684,CUST-0324,2024-01-06,Yoga Mat,Fitness Gear,2,19.63,0,3.88,India,Debit Card,39.26
+1685,CUST-0016,2024-03-05,Wireless Earbuds,Electronics,4,81.36,10,10.35,India,Credit Card,292.9
+1686,CUST-0263,2024-06-06,Resistance Bands,Fitness Gear,4,230.78,10,4.2,Australia,PayPal,830.81
+1687,CUST-0304,2024-12-21,Resistance Bands,Fitness Gear,3,83.44,0,9.36,USA,PayPal,250.32
+1688,CUST-0276,2024-04-16,Resistance Bands,Fitness Gear,4,38.44,5,,Australia,Credit Card,146.07
+1689,CUST-0295,2024-05-26,Fitness Tracker,Electronics,4,167.06,10,1.11,India,Credit Card,601.42
+1690,CUST-0366,2024-10-14,Duffel Bag,Bags,5,37.34,15,5.67,India,Debit Card,158.7
+1691,CUST-0300,2024-02-06,Resistance Bands,Fitness Gear,2,24.26,0,7.98,Nepal,PayPal,48.52
+1692,CUST-0029,2024-12-29,Resistance Bands,Fitness Gear,1,161.59,0,7.94,India,Bank Transfer,161.59
+1693,CUST-0091,2024-05-05,Yoga Mat,Fitness Gear,5,158.44,20,5.45,Australia,Bank Transfer,633.76
+1694,CUST-0058,2024-05-06,Backpack,Bags,4,55.51,0,5.45,Canada,Debit Card,222.04
+1695,CUST-0221,2024-07-13,Duffel Bag,Bags,1,118.6,0,5.19,Nepal,Bank Transfer,118.6
+1696,CUST-0047,2024-12-29,Backpack,Bags,2,25.36,10,5.07,UK,PayPal,45.65
+1697,CUST-0094,2024-09-30,Fitness Tracker,Electronics,2,73.39,0,11.79,UK,Debit Card,146.78
+1698,CUST-0091,2024-09-06,Backpack,Bags,1,177.31,10,9.31,UK,Bank Transfer,159.58
+1699,CUST-0055,2024-03-05,Duffel Bag,Bags,1,208.81,0,,Nepal,Bank Transfer,208.81
+1700,CUST-0227,2024-02-13,Duffel Bag,Bags,2,183.72,0,4.11,India,Debit Card,367.44
+1701,CUST-0060,2024-06-11,Running Shoes,Footwear,3,46.48,0,6.1,India,Bank Transfer,139.44
+1702,CUST-0274,2024-08-16,Duffel Bag,Bags,5,134.9,15,3.94,India,PayPal,573.32
+1703,CUST-0196,2024-02-13,Yoga Mat,Fitness Gear,5,95.63,0,2.56,UK,Debit Card,478.15
+1704,CUST-0052,2024-11-18,Wireless Earbuds,Electronics,1,196.87,0,11.06,USA,Credit Card,196.87
+1705,CUST-0193,2024-05-09,Duffel Bag,Bags,5,227.3,0,10.6,India,PayPal,1136.5
+1706,CUST-0115,2024-04-20,Yoga Mat,Fitness Gear,1,231.54,5,11.12,Canada,Bank Transfer,219.96
+1707,CUST-0275,2024-07-31,Water Bottle,Accessories,3,154.91,15,10.33,UK,Debit Card,395.02
+1708,CUST-0178,2024-03-13,Wireless Earbuds,Electronics,2,61.75,0,2.9,UK,PayPal,123.5
+1709,CUST-0029,2024-02-28,Backpack,Bags,2,172.98,0,3.01,Nepal,Credit Card,345.96
+1710,CUST-0117,2024-12-05,Duffel Bag,Bags,4,73.58,0,5.6,Australia,Bank Transfer,294.32
+1711,CUST-0387,2024-02-14,Resistance Bands,Fitness Gear,2,233.71,15,,India,Credit Card,397.31
+1712,CUST-0316,2024-12-03,Fitness Tracker,Electronics,2,26.17,0,8.67,India,Credit Card,52.34
+1713,CUST-0228,2024-12-08,Water Bottle,Accessories,5,167.64,15,14.22,India,Debit Card,712.47
+1714,CUST-0132,2024-01-15,Resistance Bands,Fitness Gear,4,92.3,20,12.3,Australia,Debit Card,295.36
+1715,CUST-0387,2024-06-26,Yoga Mat,Fitness Gear,2,82.1,15,,USA,Debit Card,139.57
+1716,CUST-0213,2024-11-08,Fitness Tracker,Electronics,3,107.44,0,13.5,Germany,Bank Transfer,322.32
+1717,CUST-0391,2024-09-30,Water Bottle,Accessories,3,109.2,20,10.73,Canada,Debit Card,262.08
+1718,CUST-0061,2024-01-28,Wireless Earbuds,Electronics,4,120.96,0,3.27,USA,PayPal,483.84
+1719,CUST-0341,2024-08-01,Duffel Bag,Bags,2,127.97,10,1.1,USA,Debit Card,230.35
+1720,CUST-0110,2024-02-02,Backpack,Bags,5,123.65,0,5.05,USA,PayPal,618.25
+1721,CUST-0063,2024-03-26,Fitness Tracker,Electronics,4,122.53,0,11.74,India,Debit Card,490.12
+1722,CUST-0126,2024-08-17,Yoga Mat,Fitness Gear,3,19.31,20,6.38,Germany,Bank Transfer,46.34
+1723,CUST-0320,2024-08-13,Resistance Bands,Fitness Gear,1,210.48,20,4.6,Australia,Credit Card,168.38
+1724,CUST-0227,2024-01-27,Resistance Bands,Fitness Gear,4,96.12,5,8.63,India,Bank Transfer,365.26
+1725,CUST-0009,2024-05-19,Water Bottle,Accessories,2,33.72,0,13.88,Nepal,Credit Card,67.44
+1726,CUST-0183,2024-05-29,Backpack,Bags,1,187.09,0,,Australia,Bank Transfer,187.09
+1727,CUST-0313,2024-04-07,Resistance Bands,Fitness Gear,3,127.06,0,10.22,Nepal,Debit Card,381.18
+1728,CUST-0393,2024-09-30,Yoga Mat,Fitness Gear,4,108.79,0,14.07,Germany,PayPal,435.16
+1729,CUST-0288,2024-10-23,Backpack,Bags,1,35.96,0,,USA,Credit Card,35.96
+1730,CUST-0084,2024-03-06,Backpack,Bags,5,152.38,10,13.89,USA,Credit Card,685.71
+1731,CUST-0152,2024-04-04,Resistance Bands,Fitness Gear,3,233.63,15,10.14,Germany,Credit Card,595.76
+1732,CUST-0196,2024-05-13,Yoga Mat,Fitness Gear,3,188.62,0,,USA,Bank Transfer,565.86
+1733,CUST-0106,2024-01-27,Duffel Bag,Bags,2,74.19,0,11.47,USA,Debit Card,148.38
+1734,CUST-0349,2024-07-14,Yoga Mat,Fitness Gear,4,79.55,20,10.18,Nepal,Debit Card,254.56
+1735,CUST-0056,2024-10-20,Wireless Earbuds,Electronics,4,222.31,0,10.78,Australia,PayPal,889.24
+1736,CUST-0086,2024-03-18,Fitness Tracker,Electronics,5,26.76,10,14.95,Nepal,PayPal,120.42
+1737,CUST-0316,2024-09-16,Fitness Tracker,Electronics,4,208.49,20,12.72,Nepal,Debit Card,667.17
+1738,CUST-0154,2024-10-18,Running Shoes,Footwear,2,25.21,0,,Nepal,PayPal,50.42
+1739,CUST-0119,2024-05-01,Resistance Bands,Fitness Gear,5,33.45,20,12.74,USA,Bank Transfer,133.8
+1740,CUST-0037,2024-10-03,Running Shoes,Footwear,4,244.91,20,2.96,Australia,Credit Card,783.71
+1741,CUST-0288,2024-05-11,Duffel Bag,Bags,3,82.22,0,3.92,Nepal,Credit Card,246.66
+1742,CUST-0104,2024-06-26,Backpack,Bags,2,197.96,0,5.48,Australia,Bank Transfer,395.92
+1743,CUST-0372,2024-08-02,Duffel Bag,Bags,3,173.25,0,8.29,Australia,Bank Transfer,519.75
+1744,CUST-0180,2024-01-04,Fitness Tracker,Electronics,2,203.41,0,10.77,USA,PayPal,406.82
+1745,CUST-0175,2024-10-26,Backpack,Bags,1,24.78,5,6.17,UK,Credit Card,23.54
+1746,CUST-0144,2024-08-16,Duffel Bag,Bags,3,213.56,15,5.55,Nepal,Credit Card,544.58
+1747,CUST-0015,2024-06-19,Duffel Bag,Bags,3,125.81,0,4.17,Australia,Credit Card,377.43
+1748,CUST-0016,2024-01-10,Duffel Bag,Bags,1,159.31,0,14.99,USA,Bank Transfer,159.31
+1749,CUST-0128,2024-02-06,Resistance Bands,Fitness Gear,4,208.46,0,14.29,Nepal,Debit Card,833.84
+1750,CUST-0045,2024-12-17,Yoga Mat,Fitness Gear,1,174.12,20,2.98,Germany,Credit Card,139.3
+1751,CUST-0182,2024-10-28,Duffel Bag,Bags,4,74.57,10,7.05,USA,Debit Card,268.45
+1752,CUST-0092,2024-10-19,Fitness Tracker,Electronics,2,139.61,0,4.78,UK,Credit Card,279.22
+1753,CUST-0338,2024-07-10,Resistance Bands,Fitness Gear,5,201.05,0,7.26,UK,Bank Transfer,1005.25
+1754,CUST-0317,2024-09-11,Fitness Tracker,Electronics,4,147.88,10,5.05,UK,Debit Card,532.37
+1755,CUST-0199,2024-06-05,Water Bottle,Accessories,2,234.14,0,7.28,Australia,PayPal,468.28
+1756,CUST-0182,2024-07-04,Resistance Bands,Fitness Gear,3,98.17,5,13.06,Canada,Bank Transfer,279.78
+1757,CUST-0380,2024-06-20,Resistance Bands,Fitness Gear,1,152.11,0,2.21,USA,PayPal,152.11
+1758,CUST-0036,2024-02-05,Running Shoes,Footwear,5,73.81,20,13.72,Canada,Debit Card,295.24
+1759,CUST-0068,2024-11-17,Water Bottle,Accessories,1,235.74,0,13.29,Germany,Credit Card,235.74
+1760,CUST-0038,2024-12-30,Duffel Bag,Bags,3,22.56,20,14.49,UK,PayPal,54.14
+1761,CUST-0361,2024-09-02,Water Bottle,Accessories,4,16.93,0,8.69,Nepal,PayPal,67.72
+1762,CUST-0212,2024-10-08,Duffel Bag,Bags,1,133.59,0,1.5,Australia,Credit Card,133.59
+1763,CUST-0328,2024-03-19,Backpack,Bags,1,67.85,0,1.75,Australia,Debit Card,67.85
+1764,CUST-0179,2024-10-28,Resistance Bands,Fitness Gear,4,166.05,0,6.15,Germany,PayPal,664.2
+1765,CUST-0389,2024-07-28,Yoga Mat,Fitness Gear,5,59.12,15,0.57,Australia,PayPal,251.26
+1766,CUST-0269,2024-11-14,Duffel Bag,Bags,3,49.81,10,13.5,Nepal,Debit Card,134.49
+1767,CUST-0342,2024-06-25,Wireless Earbuds,Electronics,5,60.16,15,7.85,UK,Debit Card,255.68
+1768,CUST-0336,2024-08-11,Resistance Bands,Fitness Gear,3,75.92,0,9.84,Nepal,Debit Card,227.76
+1769,CUST-0208,2024-01-20,Fitness Tracker,Electronics,1,112.94,0,2.42,Germany,Bank Transfer,112.94
+1770,CUST-0074,2024-08-09,Running Shoes,Footwear,3,209.56,0,4.54,Germany,Credit Card,628.68
+1771,CUST-0313,2024-07-06,Yoga Mat,Fitness Gear,4,157.61,10,7.24,Nepal,Bank Transfer,567.4
+1772,CUST-0081,2024-01-24,Resistance Bands,Fitness Gear,1,173.67,0,4.27,Nepal,Debit Card,173.67
+1773,CUST-0277,2024-12-26,Running Shoes,Footwear,2,55.35,0,0.31,USA,Bank Transfer,110.7
+1774,CUST-0194,2024-05-15,Resistance Bands,Fitness Gear,3,32.15,10,9.01,Germany,Bank Transfer,86.8
+1775,CUST-0041,2024-11-30,Resistance Bands,Fitness Gear,2,69.6,0,,Germany,Credit Card,139.2
+1776,CUST-0007,2024-06-12,Fitness Tracker,Electronics,4,174.48,20,,India,Bank Transfer,558.34
+1777,CUST-0178,2024-07-29,Resistance Bands,Fitness Gear,5,108.43,10,12.87,Germany,Credit Card,487.94
+1778,CUST-0028,2024-01-03,Yoga Mat,Fitness Gear,5,80.85,5,3.44,Canada,Credit Card,384.04
+1779,CUST-0278,2024-01-24,Running Shoes,Footwear,1,122.01,10,1.88,Germany,Debit Card,109.81
+1780,CUST-0256,2024-03-27,Running Shoes,Footwear,2,132.07,15,7.7,India,PayPal,224.52
+1781,CUST-0075,2024-08-17,Resistance Bands,Fitness Gear,3,30.24,0,10.91,Canada,Bank Transfer,90.72
+1782,CUST-0291,2024-09-14,Resistance Bands,Fitness Gear,2,106.16,20,13.12,Nepal,Credit Card,169.86
+1783,CUST-0242,2024-05-17,Running Shoes,Footwear,5,163.14,0,3.4,Canada,Bank Transfer,815.7
+1784,CUST-0115,2024-05-30,Wireless Earbuds,Electronics,5,194.22,0,8.97,Germany,Debit Card,971.1
+1785,CUST-0231,2024-09-05,Yoga Mat,Fitness Gear,5,241.06,0,7.17,Germany,Debit Card,1205.3
+1786,CUST-0157,2024-03-03,Running Shoes,Footwear,2,224.34,15,4.73,USA,Credit Card,381.38
+1787,CUST-0373,2024-06-12,Yoga Mat,Fitness Gear,2,185.4,10,10.6,Canada,PayPal,333.72
+1788,CUST-0293,2024-06-07,Wireless Earbuds,Electronics,1,76.51,5,9.72,Canada,PayPal,72.68
+1789,CUST-0120,2024-06-04,Backpack,Bags,5,34.7,10,4.12,Germany,PayPal,156.15
+1790,CUST-0265,2024-08-07,Wireless Earbuds,Electronics,4,94.06,0,11.81,Australia,Credit Card,376.24
+1791,CUST-0362,2024-08-13,Duffel Bag,Bags,2,179.27,0,9.99,Nepal,Bank Transfer,358.54
+1792,CUST-0327,2024-08-23,Fitness Tracker,Electronics,3,65.07,0,10.7,Canada,PayPal,195.21
+1793,CUST-0250,2024-01-05,Backpack,Bags,3,239.28,10,12.2,Canada,PayPal,646.06
+1794,CUST-0028,2024-07-17,Water Bottle,Accessories,5,183.97,0,9.36,UK,Credit Card,919.85
+1795,CUST-0183,2024-11-29,Running Shoes,Footwear,4,152.47,0,12.43,Australia,Credit Card,609.88
+1796,CUST-0267,2024-04-20,Running Shoes,Footwear,5,53.55,5,13.25,Nepal,Bank Transfer,254.36
+1797,CUST-0028,2024-02-14,Fitness Tracker,Electronics,2,207.91,20,3.76,Nepal,Bank Transfer,332.66
+1798,CUST-0317,2024-07-24,Water Bottle,Accessories,3,101.48,0,13.62,Germany,Debit Card,304.44
+1799,CUST-0009,2024-03-08,Resistance Bands,Fitness Gear,5,87.73,5,2.89,Australia,Bank Transfer,416.72
+1800,CUST-0023,2024-09-14,Duffel Bag,Bags,3,115.37,5,12.01,India,PayPal,328.8
